@@ -1,0 +1,416 @@
+sarvesh@fedora:~/Downloads/DSci$ python training.py 
+2024-04-01 22:32:50.146358: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-04-01 22:32:50.146566: I external/local_tsl/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2024-04-01 22:32:50.149012: I external/local_tsl/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2024-04-01 22:32:50.176850: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-04-01 22:32:50.811051: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+========================================================================================================
+(221500, 500)
+/home/sarvesh/.local/lib/python3.12/site-packages/keras/src/layers/core/dense.py:88: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+Epoch 1/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 25s 552us/step - accuracy: 0.5064 - loss: 1.8485        
+Epoch 2/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 598us/step - accuracy: 0.6417 - loss: 1.4873 
+Epoch 3/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 608us/step - accuracy: 0.6077 - loss: 1.7703 
+Epoch 4/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 620us/step - accuracy: 0.5599 - loss: 2.0007 
+Epoch 5/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 606us/step - accuracy: 0.5105 - loss: 2.1251 
+Epoch 6/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 604us/step - accuracy: 0.4644 - loss: 2.2971 
+Epoch 7/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 606us/step - accuracy: 0.4540 - loss: 2.2991 
+Epoch 8/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 28s 621us/step - accuracy: 0.4379 - loss: 2.3239 
+Epoch 9/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 617us/step - accuracy: 0.4107 - loss: 2.4174 
+Epoch 10/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 610us/step - accuracy: 0.3933 - loss: 2.4751 
+Epoch 11/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 615us/step - accuracy: 0.3775 - loss: 2.5552 
+Epoch 12/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 29s 654us/step - accuracy: 0.3568 - loss: 2.6358 
+Epoch 13/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 29s 665us/step - accuracy: 0.3402 - loss: 2.7096 
+Epoch 14/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 28s 631us/step - accuracy: 0.3315 - loss: 2.7636     
+Epoch 15/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 610us/step - accuracy: 0.3110 - loss: 2.8696 
+Epoch 16/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 610us/step - accuracy: 0.2824 - loss: 2.9982     
+Epoch 17/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 28s 637us/step - accuracy: 0.2630 - loss: 3.1148 
+Epoch 18/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 28s 641us/step - accuracy: 0.2472 - loss: 3.1915     
+Epoch 19/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 620us/step - accuracy: 0.2489 - loss: 3.2030 
+Epoch 20/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 614us/step - accuracy: 0.2425 - loss: 3.2289 
+Epoch 21/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 613us/step - accuracy: 0.2362 - loss: 3.2918 
+Epoch 22/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 615us/step - accuracy: 0.2310 - loss: 3.3334 
+Epoch 23/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 613us/step - accuracy: 0.2176 - loss: 3.4036 
+Epoch 24/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 615us/step - accuracy: 0.2176 - loss: 3.4139 
+Epoch 25/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 615us/step - accuracy: 0.2144 - loss: 3.4522     
+Epoch 26/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 613us/step - accuracy: 0.2082 - loss: 3.4876 
+Epoch 27/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 606us/step - accuracy: 0.2080 - loss: 3.4892     
+Epoch 28/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 602us/step - accuracy: 0.1987 - loss: 3.5342 
+Epoch 29/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 600us/step - accuracy: 0.1934 - loss: 3.5856 
+Epoch 30/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 600us/step - accuracy: 0.1882 - loss: 3.6330 
+Epoch 31/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 599us/step - accuracy: 0.1861 - loss: 3.6379 
+Epoch 32/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 600us/step - accuracy: 0.1824 - loss: 3.6663 
+Epoch 33/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 598us/step - accuracy: 0.1828 - loss: 3.6753 
+Epoch 34/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 598us/step - accuracy: 0.1724 - loss: 3.7311 
+Epoch 35/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 598us/step - accuracy: 0.1741 - loss: 3.7145 
+Epoch 36/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 26s 597us/step - accuracy: 0.1735 - loss: 3.7122 
+Epoch 37/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 598us/step - accuracy: 0.1644 - loss: 3.7903 
+Epoch 38/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 26s 597us/step - accuracy: 0.1642 - loss: 3.7902 
+Epoch 39/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 598us/step - accuracy: 0.1601 - loss: 3.8186     
+Epoch 40/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 600us/step - accuracy: 0.1584 - loss: 3.8225 
+Epoch 41/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 26s 597us/step - accuracy: 0.1561 - loss: 3.8339     
+Epoch 42/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 598us/step - accuracy: 0.1537 - loss: 3.8432 
+Epoch 43/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 599us/step - accuracy: 0.1520 - loss: 3.8554     
+Epoch 44/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 598us/step - accuracy: 0.1437 - loss: 3.8896     
+Epoch 45/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 598us/step - accuracy: 0.1347 - loss: 3.9734 
+Epoch 46/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 26s 597us/step - accuracy: 0.1348 - loss: 3.9854     
+Epoch 47/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 599us/step - accuracy: 0.1393 - loss: 3.9607 
+Epoch 48/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 26s 597us/step - accuracy: 0.1364 - loss: 3.9705     
+Epoch 49/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 26s 598us/step - accuracy: 0.1356 - loss: 3.9836     
+Epoch 50/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 599us/step - accuracy: 0.1388 - loss: 3.9623 
+Epoch 51/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 599us/step - accuracy: 0.1375 - loss: 3.9739 
+Epoch 52/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 26s 598us/step - accuracy: 0.1323 - loss: 4.0169     
+Epoch 53/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 599us/step - accuracy: 0.1314 - loss: 4.0254     
+Epoch 54/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 600us/step - accuracy: 0.1319 - loss: 4.0128     
+Epoch 55/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 602us/step - accuracy: 0.1268 - loss: 4.0419 
+Epoch 56/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 601us/step - accuracy: 0.1276 - loss: 4.0468 
+Epoch 57/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 599us/step - accuracy: 0.1274 - loss: 4.0578 
+Epoch 58/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 600us/step - accuracy: 0.1272 - loss: 4.0590 
+Epoch 59/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 601us/step - accuracy: 0.1238 - loss: 4.0939     
+Epoch 60/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 601us/step - accuracy: 0.1197 - loss: 4.1522 
+Epoch 61/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 607us/step - accuracy: 0.1190 - loss: 4.1604     
+Epoch 62/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 605us/step - accuracy: 0.1200 - loss: 4.1535     
+Epoch 63/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 607us/step - accuracy: 0.1159 - loss: 4.1783 
+Epoch 64/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 606us/step - accuracy: 0.1170 - loss: 4.1716 
+Epoch 65/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 608us/step - accuracy: 0.1164 - loss: 4.1780 
+Epoch 66/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 613us/step - accuracy: 0.1135 - loss: 4.1906     
+Epoch 67/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 609us/step - accuracy: 0.1124 - loss: 4.2091 
+Epoch 68/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 611us/step - accuracy: 0.1100 - loss: 4.2255     
+Epoch 69/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 607us/step - accuracy: 0.1097 - loss: 4.2195 
+Epoch 70/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 607us/step - accuracy: 0.1118 - loss: 4.2120     
+Epoch 71/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 608us/step - accuracy: 0.1034 - loss: 4.2685 
+Epoch 72/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 608us/step - accuracy: 0.1061 - loss: 4.2622 
+Epoch 73/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 608us/step - accuracy: 0.1049 - loss: 4.2622 
+Epoch 74/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 608us/step - accuracy: 0.1075 - loss: 4.2558     
+Epoch 75/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 609us/step - accuracy: 0.1062 - loss: 4.2547 
+Epoch 76/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 608us/step - accuracy: 0.1062 - loss: 4.2539 
+Epoch 77/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 609us/step - accuracy: 0.1074 - loss: 4.2549     
+Epoch 78/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 607us/step - accuracy: 0.1076 - loss: 4.2513     
+Epoch 79/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 611us/step - accuracy: 0.1068 - loss: 4.2584     
+Epoch 80/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 609us/step - accuracy: 0.1080 - loss: 4.2574 
+Epoch 81/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 609us/step - accuracy: 0.1081 - loss: 4.2578 
+Epoch 82/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 609us/step - accuracy: 0.1051 - loss: 4.2686 
+Epoch 83/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 609us/step - accuracy: 0.1057 - loss: 4.2706 
+Epoch 84/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 607us/step - accuracy: 0.1038 - loss: 4.2750     
+Epoch 85/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 608us/step - accuracy: 0.1035 - loss: 4.2756 
+Epoch 86/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 608us/step - accuracy: 0.1030 - loss: 4.2818     
+Epoch 87/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 608us/step - accuracy: 0.1032 - loss: 4.2794 
+Epoch 88/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 613us/step - accuracy: 0.1031 - loss: 4.2783     
+Epoch 89/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 610us/step - accuracy: 0.1023 - loss: 4.2843 
+Epoch 90/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 607us/step - accuracy: 0.1022 - loss: 4.2864 
+Epoch 91/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 608us/step - accuracy: 0.1009 - loss: 4.2937 
+Epoch 92/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 609us/step - accuracy: 0.1007 - loss: 4.2966 
+Epoch 93/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 609us/step - accuracy: 0.1023 - loss: 4.2863 
+Epoch 94/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 608us/step - accuracy: 0.1013 - loss: 4.2965     
+Epoch 95/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 608us/step - accuracy: 0.1034 - loss: 4.2847     
+Epoch 96/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 606us/step - accuracy: 0.1024 - loss: 4.2925 
+Epoch 97/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 608us/step - accuracy: 0.1019 - loss: 4.2902 
+Epoch 98/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 608us/step - accuracy: 0.1031 - loss: 4.2906 
+Epoch 99/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 607us/step - accuracy: 0.1005 - loss: 4.3003     
+Epoch 100/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 610us/step - accuracy: 0.1018 - loss: 4.2973     
+Epoch 101/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 607us/step - accuracy: 0.1019 - loss: 4.2954     
+Epoch 102/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 608us/step - accuracy: 0.1025 - loss: 4.2944     
+Epoch 103/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 608us/step - accuracy: 0.1035 - loss: 4.2905     
+Epoch 104/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 609us/step - accuracy: 0.1032 - loss: 4.2888     
+Epoch 105/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 606us/step - accuracy: 0.1034 - loss: 4.2924 
+Epoch 106/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 607us/step - accuracy: 0.1028 - loss: 4.2953 
+Epoch 107/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 608us/step - accuracy: 0.1035 - loss: 4.2991 
+Epoch 108/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 605us/step - accuracy: 0.1030 - loss: 4.3142 
+Epoch 109/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 606us/step - accuracy: 0.1019 - loss: 4.3192     
+Epoch 110/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 605us/step - accuracy: 0.1004 - loss: 4.3292     
+Epoch 111/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 606us/step - accuracy: 0.0978 - loss: 4.3353     
+Epoch 112/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 605us/step - accuracy: 0.0987 - loss: 4.3329     
+Epoch 113/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 609us/step - accuracy: 0.0982 - loss: 4.3384     
+Epoch 114/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 605us/step - accuracy: 0.1004 - loss: 4.3304 
+Epoch 115/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 605us/step - accuracy: 0.0984 - loss: 4.3379     
+Epoch 116/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 603us/step - accuracy: 0.0973 - loss: 4.3377     
+Epoch 117/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 604us/step - accuracy: 0.0985 - loss: 4.3363     
+Epoch 118/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 605us/step - accuracy: 0.0975 - loss: 4.3424     
+Epoch 119/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 604us/step - accuracy: 0.0969 - loss: 4.3414     
+Epoch 120/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 604us/step - accuracy: 0.0983 - loss: 4.3382     
+Epoch 121/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 605us/step - accuracy: 0.0988 - loss: 4.3326 
+Epoch 122/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 604us/step - accuracy: 0.0973 - loss: 4.3381 
+Epoch 123/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 605us/step - accuracy: 0.0990 - loss: 4.3324 
+Epoch 124/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 604us/step - accuracy: 0.0977 - loss: 4.3383     
+Epoch 125/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 604us/step - accuracy: 0.0956 - loss: 4.3460     
+Epoch 126/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 604us/step - accuracy: 0.0990 - loss: 4.3343     
+Epoch 127/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 603us/step - accuracy: 0.0969 - loss: 4.3405     
+Epoch 128/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 603us/step - accuracy: 0.0979 - loss: 4.3397     
+Epoch 129/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 604us/step - accuracy: 0.0993 - loss: 4.3317 
+Epoch 130/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 604us/step - accuracy: 0.0989 - loss: 4.3349     
+Epoch 131/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 604us/step - accuracy: 0.0981 - loss: 4.3369     
+Epoch 132/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 604us/step - accuracy: 0.0988 - loss: 4.3342     
+Epoch 133/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 603us/step - accuracy: 0.0979 - loss: 4.3381 
+Epoch 134/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 604us/step - accuracy: 0.0974 - loss: 4.3380     
+Epoch 135/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 604us/step - accuracy: 0.0978 - loss: 4.3390     
+Epoch 136/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 604us/step - accuracy: 0.0974 - loss: 4.3416     
+Epoch 137/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 605us/step - accuracy: 0.0984 - loss: 4.3344 
+Epoch 138/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 604us/step - accuracy: 0.0985 - loss: 4.3335 
+Epoch 139/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 603us/step - accuracy: 0.0980 - loss: 4.3375     
+Epoch 140/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 604us/step - accuracy: 0.0986 - loss: 4.3325     
+Epoch 141/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 604us/step - accuracy: 0.0972 - loss: 4.3402     
+Epoch 142/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 604us/step - accuracy: 0.0969 - loss: 4.3418     
+Epoch 143/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 603us/step - accuracy: 0.0987 - loss: 4.3366 
+Epoch 144/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 603us/step - accuracy: 0.0977 - loss: 4.3392 
+Epoch 145/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 604us/step - accuracy: 0.1001 - loss: 4.3303 
+Epoch 146/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 604us/step - accuracy: 0.0988 - loss: 4.3323     
+Epoch 147/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 602us/step - accuracy: 0.0983 - loss: 4.3342     
+Epoch 148/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 603us/step - accuracy: 0.0977 - loss: 4.3379 
+Epoch 149/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 606us/step - accuracy: 0.0993 - loss: 4.3310 
+Epoch 150/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 603us/step - accuracy: 0.0969 - loss: 4.3409     
+Epoch 151/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 604us/step - accuracy: 0.0971 - loss: 4.3397     
+Epoch 152/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 602us/step - accuracy: 0.0989 - loss: 4.3291 
+Epoch 153/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 603us/step - accuracy: 0.0978 - loss: 4.3371     
+Epoch 154/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 603us/step - accuracy: 0.0980 - loss: 4.3365 
+Epoch 155/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 604us/step - accuracy: 0.0989 - loss: 4.3345 
+Epoch 156/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 602us/step - accuracy: 0.0986 - loss: 4.3371     
+Epoch 157/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 603us/step - accuracy: 0.0975 - loss: 4.3393     
+Epoch 158/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 603us/step - accuracy: 0.0977 - loss: 4.3386     
+Epoch 159/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 603us/step - accuracy: 0.0986 - loss: 4.3355 
+Epoch 160/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 602us/step - accuracy: 0.0982 - loss: 4.3357     
+Epoch 161/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 603us/step - accuracy: 0.0979 - loss: 4.3395     
+Epoch 162/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 602us/step - accuracy: 0.0964 - loss: 4.3471     
+Epoch 163/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 603us/step - accuracy: 0.0978 - loss: 4.3379 
+Epoch 164/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 602us/step - accuracy: 0.0970 - loss: 4.3440 
+Epoch 165/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 601us/step - accuracy: 0.0964 - loss: 4.3451     
+Epoch 166/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 601us/step - accuracy: 0.0969 - loss: 4.3459     
+Epoch 167/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 601us/step - accuracy: 0.0984 - loss: 4.3361     
+Epoch 168/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 603us/step - accuracy: 0.0971 - loss: 4.3424     
+Epoch 169/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 602us/step - accuracy: 0.0962 - loss: 4.3475 
+Epoch 170/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 600us/step - accuracy: 0.0976 - loss: 4.3436 
+Epoch 171/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 599us/step - accuracy: 0.0974 - loss: 4.3447     
+Epoch 172/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 601us/step - accuracy: 0.0965 - loss: 4.3504 
+Epoch 173/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 599us/step - accuracy: 0.0964 - loss: 4.3465     
+Epoch 174/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 599us/step - accuracy: 0.0978 - loss: 4.3394 
+Epoch 175/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 599us/step - accuracy: 0.0970 - loss: 4.3459 
+Epoch 176/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 35s 780us/step - accuracy: 0.0965 - loss: 4.3464     
+Epoch 177/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 30s 682us/step - accuracy: 0.0983 - loss: 4.3399 
+Epoch 178/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 28s 622us/step - accuracy: 0.0972 - loss: 4.3432 
+Epoch 179/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 618us/step - accuracy: 0.0974 - loss: 4.3434     
+Epoch 180/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 28s 624us/step - accuracy: 0.0971 - loss: 4.3422     
+Epoch 181/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 619us/step - accuracy: 0.0965 - loss: 4.3481     
+Epoch 182/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 31s 692us/step - accuracy: 0.0974 - loss: 4.3442 
+Epoch 183/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 31s 694us/step - accuracy: 0.0963 - loss: 4.3472 
+Epoch 184/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 29s 649us/step - accuracy: 0.0977 - loss: 4.3419     
+Epoch 185/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 29s 655us/step - accuracy: 0.0971 - loss: 4.3427     
+Epoch 186/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 28s 635us/step - accuracy: 0.0959 - loss: 4.3503     
+Epoch 187/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 605us/step - accuracy: 0.0974 - loss: 4.3424     
+Epoch 188/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 28s 639us/step - accuracy: 0.0959 - loss: 4.3500     
+Epoch 189/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 29s 643us/step - accuracy: 0.0970 - loss: 4.3452     
+Epoch 190/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 28s 635us/step - accuracy: 0.0972 - loss: 4.3427     
+Epoch 191/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 29s 645us/step - accuracy: 0.0963 - loss: 4.3458 
+Epoch 192/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 29s 651us/step - accuracy: 0.0961 - loss: 4.3454     
+Epoch 193/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 29s 647us/step - accuracy: 0.0981 - loss: 4.3377     
+Epoch 194/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 29s 657us/step - accuracy: 0.0976 - loss: 4.3414 
+Epoch 195/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 617us/step - accuracy: 0.0975 - loss: 4.3435     
+Epoch 196/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 614us/step - accuracy: 0.0977 - loss: 4.3425 
+Epoch 197/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 613us/step - accuracy: 0.0971 - loss: 4.3420 
+Epoch 198/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 611us/step - accuracy: 0.0965 - loss: 4.3454     
+Epoch 199/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 613us/step - accuracy: 0.0979 - loss: 4.3421 
+Epoch 200/200
+44300/44300 ━━━━━━━━━━━━━━━━━━━━ 27s 612us/step - accuracy: 0.0970 - loss: 4.3425     
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+Done
+sarvesh@fedora:~/Downloads/DSci$ 
+
+

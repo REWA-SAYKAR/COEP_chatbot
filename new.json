@@ -1,0 +1,141 @@
+{
+  "intents": [
+    {
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "How are you?"
+      ],
+      "responses": [
+        "Hello! How can I assist you?",
+        "Hi there! How can I help you today?",
+        "Hey! What can I do for you?",
+        "Hi! Welcome to COEP website. How may I help?",
+        "Hello! Nice to meet you. How may I assist?"
+      ],
+      "tag": "greeting"
+    },
+    {
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Tell me about yourself",
+        "What's your purpose?",
+        "Who created you?"
+      ],
+      "responses": [
+        "I'm coeChat, a virtual assistant designed to help you with your questions and tasks.",
+        "I'm coeChat, an AI-powered chatbot programmed to provide assistance and information.",
+        "I'm coeChat, your friendly neighborhood chatbot here to assist you!",
+        "I'm coeChat, a digital assistant created to make your life easier.",
+        "I'm coeChat, a conversational agent designed to engage with users and provide helpful responses."
+      ],
+      "tag": "identity"
+    },
+    {
+      "patterns": [
+        "What can you do?",
+        "What are your abilities?",
+        "What tasks can you perform?",
+        "How can you assist me?"
+      ],
+      "responses": [
+        "I can provide information on a wide range of topics, answer questions, and assist with tasks.",
+        "I'm capable of understanding natural language queries and providing relevant responses.",
+        "I can help you with tasks such as finding information, making recommendations, and providing support.",
+        "I'm designed to assist users by providing accurate and helpful responses to their queries.",
+        "My capabilities include answering questions, providing recommendations, and offering support."
+      ],
+      "tag": "capabilities"
+    },
+    {
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later!",
+        "Farewell! Take care.",
+        "Bye bye! Come back soon.",
+        "Goodbye! Don't hesitate to return if you need assistance."
+      ],
+      "tag": "goodbye"
+    },
+    {
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem, happy to help!",
+        "Anytime!",
+        "Glad I could assist!",
+        "You're most welcome!"
+      ],
+      "tag": "thanks"
+    },
+    {
+      "patterns": [
+        "Tell me about College of Engineering Pune",
+        "What courses does COEP offer?",
+        "Information about COEP",
+        "What facilities does COEP provide?"
+      ],
+      "responses": [
+        "College of Engineering Pune (COEP) is one of the premier engineering institutes in India.",
+        "COEP offers undergraduate, postgraduate, and doctoral programs in various engineering disciplines.",
+        "Facilities at COEP include state-of-the-art laboratories, library, sports complex, and more.",
+        "You can find detailed information about COEP courses, admissions, and facilities on the official website."
+      ],
+      "tag": "coep_info"
+    },
+    {
+      "patterns": [
+        "How can I apply for admission to COEP?",
+        "What are the admission requirements for COEP?",
+        "Can you provide information about COEP admissions?"
+      ],
+      "responses": [
+        "Admission to COEP is based on entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs.",
+        "You need to fulfill eligibility criteria and follow the admission process as outlined by COEP.",
+        "For detailed admission information, visit the official COEP website or contact the admissions office."
+      ],
+      "tag": "admission_info"
+    },
+    {
+      "patterns": [
+        "What technology are you built with?",
+        "How do you work?",
+        "What's your underlying technology?",
+        "What programming language are you written in?"
+      ],
+      "responses": [
+        "I'm built using natural language processing (NLP) techniques and machine learning algorithms.",
+        "I use artificial intelligence (AI) to understand and respond to user queries.",
+        "My underlying technology includes deep learning models and neural networks.",
+        "I'm programmed using Python and utilize libraries like TensorFlow and NLTK.",
+        "I leverage advanced algorithms to analyze text data and generate responses."
+      ],
+      "tag": "technology"
+    },
+    {
+      "patterns": [
+        "How can I contact College of Engineering Pune?",
+        "What are the contact details of COEP?",
+        "I need to get in touch with COEP"
+      ],
+      "responses": [
+        "You can contact COEP through their official website or visit the campus directly.",
+        "For specific inquiries, you can find contact information on the COEP website.",
+        "COEP's address is: Wellesley Road, Shivajinagar, Pune, Maharashtra, India - 411005."
+      ],
+      "tag": "contact_info"
+    }
+  ]
+}
+

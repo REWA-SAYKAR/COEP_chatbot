@@ -1,0 +1,1828 @@
+{
+  "intents": [
+    {
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "How are you?"
+      ],
+      "responses": [
+        "Hello! How can I assist you?",
+        "Hi there! How can I help you today?",
+        "Hey! What can I do for you?",
+        "Hi! Welcome to COEP website. How may I help?",
+        "Hello! Nice to meet you. How may I assist?"
+      ],
+      "tag": "greeting"
+    },
+    {
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Tell me about yourself",
+        "What's your purpose?",
+        "Who created you?"
+      ],
+      "responses": [
+        "I'm coeChat, a virtual assistant designed to help you with your questions and tasks.",
+        "I'm coeChat, an AI-powered chatbot programmed to provide assistance and information.",
+        "I'm coeChat, your friendly neighborhood chatbot here to assist you!",
+        "I'm coeChat, a digital assistant created to make your life easier.",
+        "I'm coeChat, a conversational agent designed to engage with users and provide helpful responses."
+      ],
+      "tag": "identity"
+    },
+    {
+      "patterns": [
+        "What can you do?",
+        "What are your abilities?",
+        "What tasks can you perform?",
+        "How can you assist me?"
+      ],
+      "responses": [
+        "I can provide information on a wide range of topics, answer questions, and assist with tasks.",
+        "I'm capable of understanding natural language queries and providing relevant responses.",
+        "I can help you with tasks such as finding information, making recommendations, and providing support.",
+        "I'm designed to assist users by providing accurate and helpful responses to their queries.",
+        "My capabilities include answering questions, providing recommendations, and offering support."
+      ],
+      "tag": "capabilities"
+    },
+    {
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later!",
+        "Farewell! Take care.",
+        "Bye bye! Come back soon.",
+        "Goodbye! Don't hesitate to return if you need assistance."
+      ],
+      "tag": "goodbye"
+    },
+    {
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem, happy to help!",
+        "Anytime!",
+        "Glad I could assist!",
+        "You're most welcome!"
+      ],
+      "tag": "thanks"
+    },
+    {
+      "patterns": [
+        "Tell me about College of Engineering Pune",
+        "What courses does COEP offer?",
+        "Information about COEP",
+        "What facilities does COEP provide?"
+      ],
+      "responses": [
+        "College of Engineering Pune (COEP) is one of the premier engineering institutes in India.",
+        "COEP offers undergraduate, postgraduate, and doctoral programs in various engineering disciplines.",
+        "Facilities at COEP include state-of-the-art laboratories, library, sports complex, and more.",
+        "You can find detailed information about COEP courses, admissions, and facilities on the official website."
+      ],
+      "tag": "coep_info"
+    },
+    {
+      "patterns": [
+        "How can I apply for admission to COEP?",
+        "What are the admission requirements for COEP?",
+        "Can you provide information about COEP admissions?"
+      ],
+      "responses": [
+        "Admission to COEP is based on entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs.",
+        "You need to fulfill eligibility criteria and follow the admission process as outlined by COEP.",
+        "For detailed admission information, visit the official COEP website or contact the admissions office."
+      ],
+      "tag": "admission_info"
+    },
+    {
+      "patterns": [
+        "What technology are you built with?",
+        "How do you work?",
+        "What's your underlying technology?",
+        "What programming language are you written in?"
+      ],
+      "responses": [
+        "I'm built using natural language processing (NLP) techniques and machine learning algorithms.",
+        "I use artificial intelligence (AI) to understand and respond to user queries.",
+        "My underlying technology includes deep learning models and neural networks.",
+        "I'm programmed using Python and utilize libraries like TensorFlow and NLTK.",
+        "I leverage advanced algorithms to analyze text data and generate responses."
+      ],
+      "tag": "technology"
+    },
+    {
+      "patterns": [
+        "How can I contact College of Engineering Pune?",
+        "What are the contact details of COEP?",
+        "I need to get in touch with COEP"
+      ],
+      "responses": [
+        "You can contact COEP through their official website or visit the campus directly.",
+        "For specific inquiries, you can find contact information on the COEP website.",
+        "COEP's address is: Wellesley Road, Shivajinagar, Pune, Maharashtra, India - 411005."
+      ],
+      "tag": "contact_info"
+    },
+    {
+      "patterns": [
+        "How can I contact College of Engineering Pune?",
+        "What are the contact details of COEP?",
+        "I need to get in touch with COEP"
+      ],
+      "responses": [
+        "You can contact COEP through their official website or visit the campus directly.",
+        "For specific inquiries, you can find contact information on the COEP website.",
+        "COEP's address is: Wellesley Road, Shivajinagar, Pune, Maharashtra, India - 411005."
+      ],
+      "tag": "contact_info"
+    },
+    {
+      "patterns": [
+        "What is the history of College of Engineering Pune?",
+        "Could you tell me about the origins of COEP?",
+        "How did COEP come into existence?"
+      ],
+      "responses": [
+        "The precursor of COEP, The Poona Engineering Class and Mechanical School, was established in 1854 with the aim of providing suitable learning to subordinate officers in the Public Works Department.",
+        "COEP's foundation stone was laid in 1865, and it has since evolved into a renowned institution known for its contributions to engineering education and research.",
+        "COEP's rich history dates back to its establishment in 1854 as The Poona Engineering Class and Mechanical School, with the vision of providing quality education in engineering."
+      ],
+      "tag": "history"
+    },
+    {
+      "patterns": [
+        "Who are some notable alumni of COEP?",
+        "Can you provide examples of successful COEP alumni?",
+        "Which prominent individuals graduated from COEP?"
+      ],
+      "responses": [
+        "COEP has produced distinguished engineers, including Bharat Ratna Sir M. Visvesvarayya, whose contributions have significantly impacted India's civil infrastructure.",
+        "Some notable alumni of COEP include Bharat Ratna Sir M. Visvesvarayya, who is celebrated annually on 'Engineers Day' for his towering contributions to engineering.",
+        "COEP's alumni include renowned figures such as Bharat Ratna Sir M. Visvesvarayya, whose legacy continues to inspire generations of engineers."
+      ],
+      "tag": "notable_alumni"
+    },
+    {
+      "tag": "mission_vision",
+      "patterns": [
+        "What is the mission of COEP?",
+        "Can you tell me about COEP's mission and vision?",
+        "What are the core values of COEP?"
+      ],
+      "responses": [
+        "COEP's mission is to provide a student-centric institute imbued with experiential, innovative, and lifelong learning skills while addressing societal problems.",
+        "COEP envisions being a value-based globally recognized institution ensuring academic excellence and fostering research, innovation, and an entrepreneurial attitude.",
+        "The core values of COEP are Strength, Truth, Endurance, Ethics, and Reverence for All (S T E E R)."
+      ]
+    },
+    {
+      "tag": "academic_programs",
+      "patterns": [
+        "What academic programs does COEP offer?",
+        "Can you list the undergraduate programs at COEP?",
+        "Are there any postgraduate programs available at COEP?"
+      ],
+      "responses": [
+        "COEP offers nine undergraduate (UG) and twenty-four postgraduate (PG) programs, providing a wide spectrum of educational opportunities.",
+        "COEP provides undergraduate programs in various engineering disciplines, including Civil, Mechanical, Electrical, and more.",
+        "Yes, COEP offers numerous postgraduate programs across various engineering disciplines, providing opportunities for advanced study and research."
+      ]
+    },
+    {
+      "tag": "autonomous_status",
+      "patterns": [
+        "When did COEP attain autonomous status?",
+        "What changes occurred when COEP became autonomous?",
+        "Could you provide details about COEP's autonomous status?"
+      ],
+      "responses": [
+        "COEP attained autonomous status in 2003, granting it the freedom to set its own curricula and manage finances independently.",
+        "Autonomous status has empowered COEP to innovate in its pedagogical approach, curriculum development, and financial management.",
+        "The attainment of autonomous status in 2003 marked a significant milestone for COEP, providing greater flexibility and autonomy in academic and administrative matters."
+      ]
+    },
+    {
+      "tag": "goals_2022",
+      "patterns": [
+        "What are COEP's goals for 2022?",
+        "Can you list the objectives COEP aims to achieve by 2022?",
+        "What is COEP's strategic plan for the year 2022?"
+      ],
+      "responses": [
+        "COEP aims to achieve various goals by 2022, including global recognition, growth in research outcomes, establishment of collaborative centers, and more.",
+        "COEP's goals for 2022 encompass a broad spectrum of objectives, ranging from academic excellence to infrastructure development and industry collaboration.",
+        "The strategic plan for 2022 outlines COEP's aspirations to enhance its global standing, promote research and innovation, and foster entrepreneurship among students."
+      ]
+    },
+    {
+      "tag": "campus_facilities",
+      "patterns": [
+        "What facilities are available on the COEP campus?",
+        "Can you tell me about the amenities provided at COEP?",
+        "Are there any recreational facilities at COEP?"
+      ],
+      "responses": [
+        "COEP offers a range of facilities on its campus, including academic buildings, laboratories, libraries, sports facilities, and more.",
+        "On the COEP campus, you'll find amenities such as well-equipped laboratories, modern classrooms, a central library, sports facilities, and student accommodation.",
+        "Yes, COEP provides recreational facilities such as sports fields, gymnasiums, and cultural centers to promote holistic development and student well-being."
+      ]
+    },
+    {
+      "tag": "research_opportunities",
+      "patterns": [
+        "What research opportunities are available at COEP?",
+        "Can you provide information about research facilities at COEP?",
+        "Are there any research programs for students at COEP?"
+      ],
+      "responses": [
+        "COEP offers numerous research opportunities for students across various disciplines, including access to state-of-the-art laboratories and research centers.",
+        "At COEP, students have access to advanced research facilities and opportunities to collaborate with faculty on cutting-edge projects.",
+        "Yes, COEP provides research programs for students, allowing them to engage in hands-on research and contribute to academic advancements."
+      ]
+    },
+    {
+      "tag": "industry_collaboration",
+      "patterns": [
+        "Does COEP collaborate with industries?",
+        "Can you tell me about COEP's industry partnerships?",
+        "Are there any industry-sponsored projects at COEP?"
+      ],
+      "responses": [
+        "COEP has strong ties with industries, fostering collaborations through projects, internships, and guest lectures to enhance students' practical learning experiences.",
+        "Through strategic partnerships with industries, COEP offers students opportunities for internships, industrial visits, and collaborative research projects.",
+        "Yes, COEP undertakes various industry-sponsored projects aimed at addressing real-world challenges and providing students with valuable industry exposure."
+      ]
+    },
+    {
+      "tag": "entrepreneurship_initiatives",
+      "patterns": [
+        "Does COEP promote entrepreneurship?",
+        "Can you provide information about COEP's entrepreneurship initiatives?",
+        "Are there any startup incubation programs at COEP?"
+      ],
+      "responses": [
+        "COEP actively promotes entrepreneurship among its students by providing training, mentoring, and networking opportunities through dedicated entrepreneurship cells and initiatives.",
+        "COEP encourages students to explore their entrepreneurial potential through workshops, startup competitions, and support for incubating innovative ideas into viable businesses.",
+        "Yes, COEP hosts startup incubation programs to nurture budding entrepreneurs, providing them with infrastructure, mentorship, and access to funding opportunities."
+      ]
+    },
+    {
+      "tag": "alumni_network",
+      "patterns": [
+        "Does COEP have an alumni network?",
+        "Can you tell me about COEP's alumni association?",
+        "Are there any alumni events at COEP?"
+      ],
+      "responses": [
+        "COEP boasts a strong and widespread alumni network, with former students actively involved in mentoring, networking, and supporting the institute's initiatives.",
+        "The COEP Alumni Association facilitates connections among alumni, organizes reunions, career fairs, and networking events to foster lifelong bonds and collaboration.",
+        "Yes, COEP organizes various alumni events throughout the year, providing opportunities for networking, knowledge sharing, and celebrating achievements."
+      ]
+    },
+    {
+      "tag": "admissions_process",
+      "patterns": [
+        "How can I apply for admission to COEP?",
+        "Can you provide information about COEP's admission process?",
+        "What are the eligibility criteria for admission to COEP?"
+      ],
+      "responses": [
+        "The admission process for COEP typically involves entrance exams, counseling sessions, and merit-based selection criteria. Detailed information is available on the official website.",
+        "COEP's admission process varies for undergraduate and postgraduate programs and is based on academic performance, entrance exam scores, and other eligibility criteria.",
+        "Eligibility for admission to COEP depends on factors such as academic qualifications, entrance exam scores, and residency requirements. Please refer to the official website for specific criteria."
+      ]
+    },
+    {
+      "tag": "student_support_services",
+      "patterns": [
+        "What support services are available for students at COEP?",
+        "Can you tell me about student counseling services at COEP?",
+        "Are there any career development programs for students at COEP?"
+      ],
+      "responses": [
+        "COEP provides various support services for students, including counseling, academic advising, career guidance, and student welfare programs.",
+        "Student counseling services at COEP offer support in academic, personal, and career-related matters, helping students navigate challenges and achieve their goals.",
+        "COEP offers career development programs such as workshops, seminars, internships, and placement assistance to help students explore career options and secure employment opportunities."
+      ]
+    },
+    {
+      "tag": "academic_excellence",
+      "patterns": [
+        "How does COEP ensure academic excellence?",
+        "Can you provide information about COEP's academic policies?",
+        "What measures does COEP take to maintain academic standards?"
+      ],
+      "responses": [
+        "COEP promotes academic excellence through rigorous curriculum design, faculty development programs, research-oriented teaching, and continuous quality improvement initiatives.",
+        "COEP's academic policies focus on fostering a conducive learning environment, promoting academic integrity, and ensuring fairness and transparency in assessment procedures.",
+        "COEP maintains academic standards by regularly updating curricula, adopting innovative teaching methodologies, and benchmarking against global best practices in education."
+      ]
+    },
+    {
+      "tag": "student_life",
+      "patterns": [
+        "What is student life like at COEP?",
+        "Can you provide information about extracurricular activities at COEP?",
+        "Are there any student clubs and organizations at COEP?"
+      ],
+      "responses": [
+        "Student life at COEP is vibrant and dynamic, with a diverse range of cultural, sports, and social activities organized throughout the year.",
+        "COEP offers a plethora of extracurricular activities, including sports tournaments, cultural festivals, technical competitions, and community service initiatives.",
+        "Yes, COEP boasts a wide array of student clubs and organizations catering to various interests, such as robotics, entrepreneurship, literature, music, and more."
+      ]
+    },
+    {
+      "tag": "international_exchange",
+      "patterns": [
+        "Does COEP offer international exchange programs?",
+        "Can you tell me about COEP's partnerships with foreign universities?",
+        "Are there any opportunities for international collaboration at COEP?"
+      ],
+      "responses": [
+        "Yes, COEP facilitates international exchange programs and collaborations with partner universities worldwide, offering students opportunities for academic enrichment and cultural immersion.",
+        "COEP has established partnerships with prestigious foreign universities, enabling students and faculty to engage in collaborative research, exchange programs, and joint academic initiatives.",
+        "COEP actively seeks opportunities for international collaboration in research, education, and innovation to enhance its global presence and promote cross-cultural understanding."
+      ]
+    },
+    {
+      "tag": "library_resources",
+      "patterns": [
+        "What library resources are available at COEP?",
+        "Can you provide information about COEP's library facilities?",
+        "Are there any digital resources accessible to students at COEP?"
+      ],
+      "responses": [
+        "COEP's library offers a vast collection of books, journals, e-resources, and databases covering various disciplines to support teaching, learning, and research activities.",
+        "The library facilities at COEP include reading rooms, computer terminals, photocopying services, and access to online databases and e-journals.",
+        "Yes, COEP provides access to digital resources such as e-books, e-journals, research databases, and online learning platforms to support students' academic and research needs."
+      ]
+    },
+    {
+      "tag": "faculty_expertise",
+      "patterns": [
+        "What expertise do the faculty members at COEP possess?",
+        "Can you provide information about the qualifications of COEP's faculty?",
+        "Are there any renowned professors teaching at COEP?"
+      ],
+      "responses": [
+        "The faculty members at COEP possess diverse expertise and qualifications in their respective fields, including academic credentials, industry experience, and research achievements.",
+        "COEP's faculty comprises highly qualified individuals with advanced degrees, professional certifications, and extensive experience in academia and industry.",
+        "Yes, COEP has renowned professors who are experts in their fields, contributing to cutting-edge research, teaching excellence, and industry collaborations."
+      ]
+    },
+    {
+      "tag": "infrastructure_facilities",
+      "patterns": [
+        "What infrastructure and facilities are available at COEP?",
+        "Can you provide details about COEP's campus facilities?",
+        "Are there any specialized laboratories at COEP?"
+      ],
+      "responses": [
+        "COEP boasts modern infrastructure and state-of-the-art facilities, including well-equipped laboratories, lecture halls, seminar rooms, computer centers, and sports complexes.",
+        "COEP's campus facilities encompass academic buildings, research laboratories, libraries, hostels, cafeterias, recreational areas, and medical facilities to cater to students' needs.",
+        "Yes, COEP has specialized laboratories equipped with advanced equipment and instruments for research and practical training in various engineering disciplines."
+      ]
+    },
+    {
+      "tag": "student_mentorship",
+      "patterns": [
+        "Does COEP provide mentorship programs for students?",
+        "Can you tell me about COEP's student mentorship initiatives?",
+        "Are there any opportunities for peer mentorship at COEP?"
+      ],
+      "responses": [
+        "Yes, COEP offers mentorship programs to support students' academic and personal growth, providing guidance, advice, and assistance from faculty mentors and senior students.",
+        "COEP's student mentorship initiatives aim to foster a supportive learning environment, promote peer-to-peer learning, and facilitate personal and professional development.",
+        "COEP encourages peer mentorship among students, facilitating collaborative learning, knowledge sharing, and mutual support within the student community."
+      ]
+    },
+    {
+      "tag": "community_engagement",
+      "patterns": [
+        "Does COEP engage with the local community?",
+        "Can you provide information about COEP's community outreach programs?",
+        "Are there any social responsibility initiatives undertaken by COEP?"
+      ],
+      "responses": [
+        "Yes, COEP actively engages with the local community through various outreach programs, social initiatives, and community service projects aimed at addressing societal challenges and contributing to social development.",
+        "COEP's community outreach programs include awareness campaigns, skill development workshops, health camps, environmental conservation projects, and initiatives to empower marginalized communities.",
+        "COEP is committed to social responsibility and sustainable development, undertaking initiatives to promote education, healthcare, environmental sustainability, and inclusive growth in the local community."
+      ]
+    },
+    {
+      "tag": "student_feedback",
+      "patterns": [
+        "How can students provide feedback to COEP?",
+        "Can you tell me about COEP's feedback mechanisms?",
+        "Are there any channels for students to voice their opinions at COEP?"
+      ],
+      "responses": [
+        "COEP welcomes feedback from students and provides various channels for them to express their opinions, suggestions, and concerns, including online feedback forms, suggestion boxes, and student forums.",
+        "COEP's feedback mechanisms aim to gather input from students on various aspects of their academic experience, teaching quality, facilities, and overall satisfaction to continually improve the learning environment.",
+        "Students can provide feedback to COEP through official channels such as departmental feedback sessions, student council meetings, and direct communication with faculty and administration."
+      ]
+    },
+    {
+      "tag": "admission_deadlines",
+      "patterns": ["What are the admission deadlines?", "Admission deadline", "Last date for admission"],
+      "responses": [
+        "The admission deadlines vary depending on the academic year. It's essential to check the official website or contact the admission office for the current deadlines.",
+        "Admission deadlines are subject to change each academic year. Stay updated by visiting the official website or contacting the admission office directly.",
+        "The last date for admission applications may differ each year. For accurate information on admission deadlines, please refer to the official COEP website or contact the admission office.",
+        "Admission deadlines are crucial to adhere to. To ensure you don't miss out, regularly check the official website or contact the admission office for the latest updates."
+      ]
+    },
+    {
+      "tag": "documents_required",
+      "patterns": ["What documents are required for admission?", "Documents needed for admission"],
+      "responses": [
+        "Candidates typically need to submit documents such as mark sheets, certificates, identity proof, and passport-sized photographs for admission.",
+        "Documents required for admission usually include academic transcripts, certificates, identity proofs, and recent photographs. Specific requirements may vary, so it's advisable to refer to the official COEP website or contact the admission office for precise details.",
+        "Commonly requested documents for admission include mark sheets, certificates, identity proof, and photographs. Ensure you have all necessary documents in order to complete the admission process smoothly.",
+        "To complete the admission process, candidates typically need to submit various documents, including academic records, identification proof, and photographs. Refer to the official website or contact the admission office for a comprehensive list of required documents."
+      ]
+    },
+    {
+      "tag": "reservation_criteria",
+      "patterns": ["Is there any reservation criteria for admission?", "Reservation for admission", "Admission quota"],
+      "responses": [
+        "COEP follows government-mandated reservation criteria for admission. Eligible candidates from reserved categories can avail of the applicable quotas during the admission process.",
+        "Admission to COEP includes reservation criteria as per government regulations. Candidates belonging to reserved categories are entitled to specific quotas during the admission process.",
+        "Reserved categories have allocated quotas as per government guidelines for admission to COEP. Ensure you fulfill the eligibility criteria for the respective reservation category.",
+        "COEP adheres to reservation criteria outlined by the government for admission. Candidates from reserved categories should familiarize themselves with the applicable quotas and eligibility requirements."
+      ]
+    },
+    {
+      "tag": "fees_structure",
+      "patterns": ["What is the fees structure for admission?", "Admission fees", "Cost of admission"],
+      "responses": [
+        "The fee structure for admission to COEP may vary based on the course and category of the candidate. For detailed information on fees, please refer to the official website or contact the admission office.",
+        "Fees for admission to COEP depend on factors such as the course and category of the candidate. It's recommended to check the official website or contact the admission office for precise details.",
+        "Admission fees at COEP are subject to change and may vary for different courses and categories of candidates. Consult the official website or contact the admission office for up-to-date information on fees.",
+        "To know the exact fees structure for admission to COEP, including tuition fees and other charges, please visit the official website or get in touch with the admission office."
+      ]
+    },
+    {
+      "tag": "scholarship_opportunities",
+      "patterns": ["Are there any scholarship opportunities for admission?", "Scholarships for admission", "Financial aid for students"],
+      "responses": [
+        "COEP offers various scholarship opportunities to eligible students based on merit, financial need, or specific criteria. Information on available scholarships and application procedures can be found on the official website or obtained by contacting the scholarship office.",
+        "Scholarship opportunities for admission to COEP are available for deserving students based on various criteria. Check the official website or contact the scholarship office for details on available scholarships and how to apply.",
+        "Financial aid in the form of scholarships is provided to eligible students at COEP. Explore the official website or reach out to the scholarship office for information on available scholarships and eligibility criteria.",
+        "To support deserving students, COEP offers scholarships based on merit, financial need, and other criteria. Visit the official website or contact the scholarship office for details on available scholarships and application procedures."
+      ]
+    },
+    {
+      "tag": "admission_procedure",
+      "patterns": ["What is the admission procedure?", "How does the admission process work?"],
+      "responses": [
+        "The admission procedure at COEP involves appearing for the entrance examination, meeting eligibility criteria, and participating in counseling sessions.",
+        "Admission at COEP follows a standardized procedure, including entrance exams, eligibility verification, and counseling sessions.",
+        "Candidates seeking admission to COEP must go through a structured process involving entrance exams, eligibility checks, and counseling sessions.",
+        "The admission procedure at COEP is designed to ensure fairness and transparency, involving entrance exams, eligibility assessments, and counseling.",
+        "To secure admission at COEP, candidates must follow the prescribed admission procedure, which includes entrance exams, eligibility verification, and counseling."
+      ]
+    },
+    {
+      "tag": "eligibility_criteria",
+      "patterns": ["What are the eligibility criteria for admission?", "Who is eligible for admission?"],
+      "responses": [
+        "Eligibility criteria for admission to COEP typically include academic qualifications, minimum marks required, and performance in the entrance examination.",
+        "To be eligible for admission at COEP, candidates must meet certain academic requirements, achieve specified marks in qualifying exams, and perform well in the entrance test.",
+        "Candidates seeking admission to COEP need to fulfill specific eligibility criteria related to academic qualifications, minimum marks, and performance in entrance exams.",
+        "The eligibility criteria for admission to COEP are based on academic qualifications, marks obtained in qualifying exams, and performance in the entrance test.",
+        "To determine eligibility for admission at COEP, candidates' academic qualifications, marks secured in qualifying exams, and performance in entrance exams are considered."
+      ]
+    },
+    {
+      "tag": "admission_deadline",
+      "patterns": ["What is the deadline for admission?", "When is the last date to apply for admission?"],
+      "responses": [
+        "The deadline for admission to COEP varies each year. Please refer to the official website or contact the admission office for updated information.",
+        "COEP announces admission deadlines and application submission dates through official channels. It's recommended to regularly check the website for the latest updates.",
+        "Candidates must adhere to the admission deadlines specified by COEP, which are subject to change. Stay informed by visiting the official website or contacting the admission office.",
+        "Admission deadlines at COEP are usually announced well in advance. Candidates should keep track of these dates by visiting the official website or contacting the admission office.",
+        "To ensure timely submission of applications, candidates must be aware of the admission deadlines set by COEP. Refer to the official website or contact the admission office for details."
+      ]
+    },
+    {
+      "tag": "application_process",
+      "patterns": ["How do I apply for admission?", "What is the process of applying for admission?"],
+      "responses": [
+        "Candidates can apply for admission to COEP by filling out the online application form available on the official website during the specified application period.",
+        "The application process for COEP admission involves filling out an online application form, uploading required documents, and paying the application fee.",
+        "To apply for admission at COEP, candidates need to complete an online application form, provide necessary documents, and pay the prescribed application fee.",
+        "Applying for admission to COEP is a straightforward process that includes filling out an online application form, submitting relevant documents, and paying the application fee.",
+        "Candidates interested in admission at COEP can apply online by following the instructions provided on the official website during the application period."
+      ]
+    },
+    {
+      "tag": "contact_details",
+      "patterns": ["How can I contact the admission office?", "What are the contact details for admission inquiries?"],
+      "responses": [
+        "For admission inquiries, please contact the admission office at College of Engineering Pune, Wellesely Rd, Shivajinagar, Pune-411 005, Maharashtra, INDIA. Telephone: +91-20-25507000. Fax: +91-20-25507299.",
+        "You can reach out to the admission office at COEP by visiting College of Engineering Pune, Wellesely Rd, Shivajinagar, Pune-411 005, Maharashtra, INDIA. You can also contact them via telephone at +91-20-25507000 or fax at +91-20-25507299.",
+        "For admission-related queries, feel free to contact the admission office at COEP. You can visit them at College of Engineering Pune, Wellesely Rd, Shivajinagar, Pune-411 005, Maharashtra, INDIA. Alternatively, you can reach them by telephone at +91-20-25507000 or fax at +91-20-25507299.",
+        "To get in touch with the admission office for any admission-related assistance, visit College of Engineering Pune, Wellesely Rd, Shivajinagar, Pune-411 005, Maharashtra, INDIA. You can also contact them via telephone at +91-20-25507000 or fax at +91-20-25507299.",
+        "If you have any queries regarding admission, don't hesitate to contact the admission office at COEP. You can find them at College of Engineering Pune, Wellesely Rd, Shivajinagar, Pune-411 005, Maharashtra, INDIA. You can also reach them by telephone at +91-20-25507000 or fax at +91-20-25507299."
+      ]
+    },
+    {
+      "tag": "admission_requirements",
+      "patterns": ["What are the requirements for admission?", "What do I need to apply for admission?"],
+      "responses": [
+        "Candidates applying for admission to COEP typically need to submit proof of academic qualifications, certificates of extracurricular achievements (if any), and a valid scorecard of the entrance examination.",
+        "To apply for admission at COEP, candidates must provide documents such as academic transcripts, certificates of extracurricular activities, and a valid entrance exam scorecard.",
+        "Admission to COEP requires candidates to submit documents including academic records, certificates of achievements, and a valid entrance exam score.",
+        "The requirements for admission at COEP include submitting academic transcripts, certificates demonstrating extracurricular accomplishments, and a valid entrance exam scorecard.",
+        "Candidates interested in admission at COEP should prepare documents such as academic certificates, proof of extracurricular activities, and a valid entrance exam score."
+      ]
+    },
+    {
+      "tag": "financial_aid",
+      "patterns": ["Is financial aid available for students?", "What are the options for financial assistance?"],
+      "responses": [
+        "COEP offers various financial aid options to eligible students, including scholarships, grants, and loans. Details about financial assistance programs can be obtained from the financial aid office.",
+        "Financial aid opportunities are available for students at COEP, including scholarships, grants, and loans. For more information, students can contact the financial aid office.",
+        "Students at COEP can explore different financial aid options such as scholarships, grants, and loans to support their education. Contact the financial aid office for details.",
+        "To assist students in financing their education, COEP provides financial aid programs like scholarships, grants, and loans. For specific information, students should contact the financial aid office.",
+        "COEP offers various avenues for financial assistance, including scholarships, grants, and loans, to support students in their educational pursuits. Contact the financial aid office for further details."
+      ]
+    },
+    {
+      "tag": "admission_notification",
+      "patterns": ["How will I know if my admission application is accepted?", "When will I receive admission notification?"],
+      "responses": [
+        "Once the admission committee reviews your application, you will receive a notification via email or through the online application portal regarding the status of your admission.",
+        "Admission notifications are typically sent out via email or through the online application portal once the admission committee reviews your application.",
+        "Upon review of your admission application by the committee, you will be notified about the status of your admission through email or the online application portal.",
+        "Expect to receive notification regarding the status of your admission application via email or the online application portal after the admission committee reviews your application.",
+        "Admission notifications, indicating the status of your application, will be sent to you via email or through the online application portal following the review by the admission committee."
+      ]
+    },
+    {
+      "tag": "entrance_exam",
+      "patterns": ["Which entrance exam is required for admission?", "What is the entrance exam for COEP?"],
+      "responses": [
+        "Admission to COEP typically requires candidates to appear for entrance exams such as JEE Main, MHT CET, or other recognized state-level or national-level entrance exams.",
+        "COEP accepts scores from various entrance exams including JEE Main, MHT CET, and other recognized state or national level entrance exams for admission purposes.",
+        "Candidates seeking admission to COEP can take entrance exams like JEE Main, MHT CET, or other equivalent state or national level exams as per the admission guidelines.",
+        "For admission at COEP, candidates need to appear for entrance exams like JEE Main, MHT CET, or other relevant state or national level entrance tests.",
+        "To be eligible for admission at COEP, candidates must clear entrance exams such as JEE Main, MHT CET, or other recognized state or national level exams."
+      ]
+    },
+    {
+      "tag": "course_selection",
+      "patterns": ["How do I select my course for admission?", "What courses are available for admission?"],
+      "responses": [
+        "COEP offers a wide range of courses across various disciplines. Candidates can select their desired course for admission based on their interests and career goals.",
+        "Candidates can choose from a variety of courses offered at COEP across different disciplines. The selection should align with their academic interests and career aspirations.",
+        "At COEP, candidates have the opportunity to select from a diverse range of courses spanning different fields of study. Choose a course that best matches your academic and career objectives.",
+        "For admission at COEP, candidates have the option to select from a variety of courses available across different departments. Choose a course that suits your academic and professional interests.",
+        "The course selection process at COEP allows candidates to explore and choose from a wide array of courses offered across various disciplines. Select a course that aligns with your academic and career aspirations."
+      ]
+    },
+    {
+      "tag": "admission_deadline",
+      "patterns": ["What is the deadline for admission applications?", "When is the last date to apply for admission?"],
+      "responses": [
+        "The deadline for submission of admission applications may vary each year. It is advisable to regularly check the official COEP website or contact the admission office for the latest information on admission deadlines.",
+        "Admission deadlines are subject to change and may vary from year to year. For the most up-to-date information regarding the last date to apply for admission, please refer to the official COEP website or contact the admission office.",
+        "The deadline for admission applications is typically announced by COEP each year. To ensure timely submission, it is recommended to monitor the official website or contact the admission office for the latest updates.",
+        "COEP announces the deadline for admission applications annually. Applicants should stay informed about the latest updates by checking the official website or contacting the admission office.",
+        "For information regarding the deadline to apply for admission, candidates are advised to visit the official COEP website or reach out to the admission office for the most accurate and up-to-date details."
+      ]
+    },
+    {
+      "tag": "admission_process",
+      "patterns": ["What is the admission process at COEP?", "Can you explain the steps for admission?"],
+      "responses": [
+        "The admission process at COEP typically involves submission of application forms, followed by entrance exams, counseling sessions (if applicable), and final seat allocation based on merit and availability.",
+        "COEP's admission process generally includes filling out application forms, appearing for entrance exams, participating in counseling sessions (if required), and finalizing admission based on merit and seat availability.",
+        "Candidates seeking admission at COEP need to complete various steps including filling out application forms, taking entrance exams, attending counseling sessions (if necessary), and finalizing admission based on merit and availability of seats.",
+        "At COEP, the admission process encompasses several stages such as application form submission, entrance exam participation, counseling sessions (if needed), and final admission based on merit and seat availability.",
+        "The admission process at COEP involves multiple stages including application submission, entrance exam performance, participation in counseling sessions (if applicable), and final admission based on merit and seat availability."
+      ]
+    },
+    {
+      "tag": "admission_inquiry",
+      "patterns": ["How can I inquire about admission-related queries?", "Where can I get information about admission?"],
+      "responses": [
+        "For inquiries regarding admission-related queries, you can contact the admission office at COEP through phone or email. Alternatively, you can visit the official website for detailed information.",
+        "To get information about admission-related queries, you can reach out to the admission office at COEP via phone or email. Additionally, you can visit the official website for comprehensive details.",
+        "If you have any queries related to admission, feel free to contact the admission office at COEP via phone or email. You can also explore the official website for detailed information.",
+        "For any questions regarding admission, you can contact the admission office at COEP by phone or email. Additionally, you can refer to the official website for comprehensive details and updates.",
+        "To inquire about admission-related queries, you can contact the admission office at COEP using the provided phone number or email address. Additionally, you can visit the official website for detailed information."
+      ]
+    },
+    {
+      "tag": "application_submission",
+      "patterns": ["How do I submit my admission application?", "Where can I find the admission application form?"],
+      "responses": [
+        "The admission application form can be found on the official COEP website. Once filled out, it can be submitted online through the designated portal provided on the website.",
+        "To submit your admission application, you can access the application form on the official COEP website. After completing the form, you can submit it online through the specified portal.",
+        "You can obtain the admission application form from the official COEP website. Once filled, the form can be submitted electronically through the designated portal available on the website.",
+        "The admission application form is available for download on the official COEP website. After filling it out, you can submit the form online through the provided portal on the website.",
+        "For submitting your admission application, you can download the application form from the official COEP website. After completing the form, you can submit it electronically through the portal on the website."
+      ]
+    },
+    {
+      "tag": "contact_details",
+      "patterns": ["How can I contact COEP for admission inquiries?", "What are the contact details for admission queries?"],
+      "responses": [
+        "For admission inquiries, you can contact COEP via phone at +91-20-25507000 or reach out through email at [admission@coep.ac.in](mailto:admission@coep.ac.in). Additionally, you can visit the official website for more information.",
+        "To inquire about admission, you can contact COEP by phone at +91-20-25507000 or via email at [admission@coep.ac.in](mailto:admission@coep.ac.in). You can also visit the official website for further details.",
+        "For admission queries, feel free to contact COEP by phone at +91-20-25507000 or via email at [admission@coep.ac.in](mailto:admission@coep.ac.in). Further information can be found on the official website.",
+        "To address admission-related queries, you can contact COEP through phone at +91-20-25507000 or via email at [admission@coep.ac.in](mailto:admission@coep.ac.in). Detailed information is available on the official website.",
+        "For inquiries regarding admission, you can reach out to COEP by phone at +91-20-25507000 or via email at [admission@coep.ac.in](mailto:admission@coep.ac.in). Additionally, you can explore the official website for more details."
+      ]
+    },
+    {
+      "tag": "admission_requirements",
+      "patterns": ["What are the requirements for admission to COEP?", "Can you list the admission criteria?"],
+      "responses": [
+        "Admission requirements at COEP typically include meeting the eligibility criteria, submitting required documents such as academic transcripts, entrance exam scores (if applicable), and completing the application process within the specified deadline.",
+        "To be eligible for admission to COEP, candidates need to fulfill certain requirements which may include academic qualifications, performance in entrance exams (if required), and submission of necessary documents. It's advisable to refer to the official website for detailed criteria.",
+        "The admission criteria for COEP usually consist of fulfilling academic qualifications, achieving the required scores in entrance exams (if applicable), and submitting necessary documents as per the specified guidelines. Please check the official website for detailed information.",
+        "Candidates seeking admission to COEP must meet certain requirements such as academic qualifications, performance in entrance exams (if necessary), and submission of required documents within the stipulated deadline. For specific criteria, refer to the official website.",
+        "Admission to COEP is based on fulfilling eligibility criteria, which typically include academic qualifications, performance in entrance exams (if applicable), and submission of necessary documents. Please visit the official website for detailed admission requirements."
+      ]
+    },
+    {
+      "tag": "admission_quota",
+      "patterns": ["Does COEP have any reserved seats or quotas for admission?", "Are there any seats reserved for specific categories in COEP admissions?"],
+      "responses": [
+        "COEP may have reserved seats or quotas for certain categories such as SC/ST/OBC/EWS/PWD as per government regulations. Details regarding reserved seats and eligibility criteria are usually provided in the admission notification. Please refer to the official website or contact the admission office for specific information.",
+        "Yes, COEP may have reserved seats or quotas for specific categories including SC/ST/OBC/EWS/PWD as per government guidelines. For detailed information about reserved seats and eligibility criteria, please consult the official website or contact the admission office.",
+        "Reserved seats or quotas may be available at COEP for categories such as SC/ST/OBC/EWS/PWD in accordance with government regulations. To understand the reservation policy and eligibility criteria, it is recommended to refer to the official website or contact the admission office.",
+        "COEP may have reserved seats or quotas for certain categories like SC/ST/OBC/EWS/PWD based on government directives. For details regarding reserved seats and eligibility criteria, please check the official website or contact the admission office.",
+        "Yes, COEP may have reserved seats or quotas for specific categories including SC/ST/OBC/EWS/PWD in adherence to government norms. For comprehensive details about reserved seats and eligibility, kindly visit the official website or reach out to the admission office."
+      ]
+    },
+    {
+      "tag": "admission_fee",
+      "patterns": ["What is the admission fee for courses at COEP?", "How much do I need to pay for admission?"],
+      "responses": [
+        "The admission fee for courses at COEP may vary depending on the program and category of the candidate (such as general, reserved, etc.). It is advisable to refer to the official website or admission brochure for detailed information regarding admission fees.",
+        "Admission fees for courses at COEP are subject to variation based on factors like the program and category of the candidate. For accurate details about admission fees, please consult the official website or admission brochure.",
+        "The admission fee for COEP courses varies according to the program and category of the candidate. To know the exact amount of admission fees, it is recommended to check the official website or admission brochure.",
+        "COEP's admission fee for courses is determined by factors such as the program and category of the candidate. For specific information regarding admission fees, please refer to the official website or admission brochure.",
+        "The admission fee for courses at COEP is dependent on factors like the program and category of the candidate. For detailed information about admission fees, please visit the official website or refer to the admission brochure."
+      ]
+    },
+    {
+      "tag": "admission_notifications",
+      "patterns": ["How can I stay informed about admission notifications from COEP?", "Where can I find updates about admission announcements?"],
+      "responses": [
+        "To stay informed about admission notifications from COEP, you can regularly check the official website for updates. Additionally, you can subscribe to the university's newsletter or follow its social media channels for the latest announcements.",
+        "For updates about admission notifications from COEP, it is recommended to monitor the official website regularly. You can also subscribe to the university's newsletter or follow its social media handles for timely announcements.",
+        "To receive updates about admission notifications from COEP, keep an eye on the official website for announcements. You can also subscribe to the university's newsletter or follow its social media platforms for timely information.",
+        "Stay informed about admission notifications from COEP by regularly checking the official website for announcements. Additionally, consider subscribing to the university's newsletter or following its social media accounts for updates.",
+        "For the latest admission notifications from COEP, please check the official website regularly. You can also stay updated by subscribing to the university's newsletter or following its social media channels for announcements."
+      ]
+    },
+    {
+      "tag": "admission_counseling",
+      "patterns": ["Does COEP conduct counseling sessions for admission?", "Is there any counseling process for COEP admissions?"],
+      "responses": [
+        "Yes, COEP may conduct counseling sessions as part of the admission process, especially for certain courses or categories of candidates. Details about counseling sessions, if applicable, are usually provided in the admission notification or on the official website.",
+        "COEP may organize counseling sessions as part of the admission procedure, particularly for specific courses or candidate categories. Information regarding counseling, if conducted, can be found in the admission notification or on the official website.",
+        "Counseling sessions may be conducted by COEP as part of the admission process, particularly for certain courses or candidate groups. Details about counseling, if held, are typically available in the admission notification or on the official website.",
+        "Yes, COEP may conduct counseling sessions during the admission process, especially for specific courses or candidate categories. Information regarding counseling, if applicable, can be obtained from the admission notification or official website.",
+        "COEP may organize counseling sessions as part of the admission process, especially for certain courses or categories of candidates. Details about counseling, if conducted, can be found in the admission notification or on the official website."
+      ]
+    },
+    {
+      "tag": "admission_deadlines",
+      "patterns": ["What are the deadlines for admission applications at COEP?", "When is the last date to apply for admission?"],
+      "responses": [
+        "The deadlines for admission applications at COEP vary depending on the course and category of the candidate. It is crucial to check the official website or admission brochure for specific deadline dates.",
+        "Admission application deadlines at COEP differ based on the course and candidate category. To ensure timely submission, please refer to the official website or admission brochure for accurate deadline information.",
+        "For admission applications at COEP, the deadlines may vary according to the course and candidate category. To avoid missing the deadline, it is recommended to check the official website or admission brochure for deadline details.",
+        "Deadlines for admission applications at COEP may vary depending on factors like the course and candidate category. To know the specific deadline dates, please consult the official website or admission brochure.",
+        "The deadlines for admission applications at COEP are subject to variation based on factors such as the course and candidate category. For accurate information about deadline dates, please refer to the official website or admission brochure."
+      ]
+    },
+    {
+      "tag": "admission_process",
+      "patterns": ["What is the admission process at COEP like?", "Can you explain the steps involved in COEP's admission process?"],
+      "responses": [
+        "The admission process at COEP typically involves steps such as application submission, entrance exams (if applicable), document verification, counseling (if conducted), and fee payment. Detailed information about the admission process can be found on the official website or admission brochure.",
+        "COEP's admission process generally includes stages like application submission, entrance exams (if required), document verification, counseling (if applicable), and fee payment. For a comprehensive understanding of the admission process, please refer to the official website or admission brochure.",
+        "At COEP, the admission process usually comprises steps like application submission, entrance exams (if necessary), document verification, counseling (if conducted), and fee payment. To learn more about the admission process, visit the official website or refer to the admission brochure.",
+        "The admission process at COEP typically includes procedures such as application submission, entrance exams (if mandated), document verification, counseling (if organized), and fee payment. Detailed information about the admission process can be obtained from the official website or admission brochure.",
+        "COEP's admission process involves various stages such as application submission, entrance exams (if applicable), document verification, counseling (if conducted), and fee payment. For a detailed explanation of the admission process, please check the official website or admission brochure."
+      ]
+    },
+    {
+      "tag": "admission_contact",
+      "patterns": ["How can I contact the admission office at COEP?", "What are the contact details for admission inquiries?"],
+      "responses": [
+        "For admission inquiries or contacting the admission office at COEP, you can reach out via phone or email. The contact details are as follows: Telephone: +91-20-25507000, Email: admissions@coep.ac.in. Alternatively, you can visit the official website for additional contact information.",
+        "To contact the admission office at COEP regarding admission inquiries, you can use the following contact details: Telephone: +91-20-25507000, Email: admissions@coep.ac.in. For further assistance, please refer to the official website.",
+        "For admission inquiries or reaching out to the admission office at COEP, you can use the following contact information: Telephone: +91-20-25507000, Email: admissions@coep.ac.in. Additional details may be available on the official website.",
+        "If you have admission-related inquiries or need to contact the admission office at COEP, you can use the following contact details: Telephone: +91-20-25507000, Email: admissions@coep.ac.in. For more information, please visit the official website.",
+        "To contact the admission office at COEP for admission inquiries, you can use the following contact details: Telephone: +91-20-25507000, Email: admissions@coep.ac.in. For further assistance, please visit the official website."
+      ]
+    },
+    {
+      "tag": "admission_selection_criteria",
+      "patterns": ["What are the selection criteria for admission to COEP?", "How does COEP select candidates for admission?"],
+      "responses": [
+        "COEP's selection criteria for admission typically include factors such as academic performance, scores in entrance exams (if applicable), eligibility requirements, and sometimes, personal interviews or group discussions. For detailed selection criteria, please refer to the official website or admission brochure.",
+        "The selection criteria for admission to COEP usually involve considerations such as academic achievements, performance in entrance exams (if required), fulfillment of eligibility criteria, and occasionally, personal interviews or group discussions. To understand the selection process better, consult the official website or admission brochure.",
+        "For admission to COEP, the selection criteria often encompass aspects like academic records, performance in entrance exams (if necessary), meeting eligibility criteria, and occasionally, personal interviews or group discussions. To learn more about the selection process, refer to the official website or admission brochure.",
+        "COEP's selection criteria for admission typically include factors like academic performance, entrance exam scores (if applicable), meeting eligibility requirements, and sometimes, personal interviews or group discussions. Detailed information about the selection criteria can be found on the official website or admission brochure.",
+        "The selection criteria for admission to COEP usually involve considerations such as academic performance, entrance exam scores (if required), fulfillment of eligibility criteria, and sometimes, personal interviews or group discussions. For comprehensive details, please consult the official website or admission brochure."
+      ]
+    },
+    {
+      "tag": "admission_merit_list",
+      "patterns": ["How is the merit list prepared for COEP admissions?", "What factors determine inclusion in the COEP merit list?"],
+      "responses": [
+        "The merit list for COEP admissions is typically prepared based on factors such as academic performance, scores in entrance exams (if applicable), category-wise reservation norms (if any), and sometimes, additional criteria specified by the university. To understand the merit list preparation process, please refer to the official website or admission brochure.",
+        "In COEP admissions, the merit list is generally prepared considering factors like academic achievements, entrance exam scores (if required), category-based reservation policies (if applicable), and sometimes, other specified criteria. For insights into the merit list preparation, consult the official website or admission brochure.",
+        "For COEP admissions, the merit list is usually prepared by considering factors such as academic records, entrance exam scores (if necessary), category-specific reservation rules (if any), and occasionally, additional criteria. To know more about the merit list preparation, refer to the official website or admission brochure.",
+        "The merit list for COEP admissions is typically prepared based on criteria such as academic performance, entrance exam scores (if applicable), category-wise reservation policies (if any), and sometimes, additional criteria set by the university. For detailed information, please check the official website or admission brochure.",
+        "COEP's merit list for admissions is usually prepared based on factors like academic performance, entrance exam scores (if required), category-based reservation norms (if any), and sometimes, other specified criteria. For insights into the merit list preparation process, consult the official website or admission brochure."
+      ]
+    },
+    {
+      "tag": "admission_requirements",
+      "patterns": ["What are the admission requirements for COEP?", "What documents are needed for admission to COEP?"],
+      "responses": [
+        "The admission requirements for COEP typically include documents such as academic transcripts, entrance exam scorecards (if applicable), identity proof, category certificate (if claiming reservation), and passport-sized photographs. For detailed information, please refer to the official website or admission brochure.",
+        "To secure admission to COEP, candidates generally need to submit documents like academic transcripts, entrance exam results (if required), identity proof, category certificate (if applicable), and passport-sized photos. For comprehensive details, consult the official website or admission brochure.",
+        "For admission to COEP, candidates are usually required to submit documents like academic transcripts, entrance exam scores (if necessary), proof of identity, category certificate (if applicable), and recent passport-sized photographs. To know the complete list of requirements, visit the official website or admission brochure.",
+        "COEP's admission requirements typically include documents such as academic records, entrance exam scores (if applicable), identity proof, category certificate (if claiming reservation), and passport-sized photographs. Detailed information can be found on the official website or admission brochure.",
+        "The admission requirements for COEP generally consist of documents like academic transcripts, entrance exam scorecards (if mandated), identity proof, category certificate (if eligible for reservation), and passport-sized photographs. For detailed requirements, please refer to the official website or admission brochure."
+      ]
+    },
+    {
+      "tag": "admission_fee_structure",
+      "patterns": ["What is the fee structure for COEP admissions?", "How much is the admission fee for different courses at COEP?"],
+      "responses": [
+        "The fee structure for COEP admissions varies depending on the course and category of the candidate. It typically includes components like tuition fees, hostel fees (if opting for accommodation), examination fees, and other miscellaneous charges. For specific fee details, please refer to the official website or admission brochure.",
+        "COEP's fee structure for admissions varies based on factors such as the course enrolled in and the candidate's category. Components of the fee may include tuition fees, hostel charges (if availing accommodation), examination fees, and additional expenses. To know the exact fee structure, visit the official website or admission brochure.",
+        "For COEP admissions, the fee structure differs according to the course and candidate category. It usually comprises elements like tuition fees, hostel fees (if opting for accommodation), examination fees, and other charges. To get detailed fee information, refer to the official website or admission brochure.",
+        "The fee structure for COEP admissions is subject to variation based on factors like the course selected and the candidate's category. Components of the fee may include tuition fees, hostel charges (if choosing accommodation), examination fees, and other miscellaneous expenses. For specific fee details, consult the official website or admission brochure.",
+        "COEP's fee structure for admissions varies depending on factors such as the course chosen and the candidate's category. Fee components may include tuition fees, hostel fees (if opting for accommodation), examination fees, and other related charges. To know the exact fee structure, visit the official website or admission brochure."
+      ]
+    },
+    {
+      "tag": "admission_counseling",
+      "patterns": ["Is counseling mandatory for COEP admissions?", "What is the role of counseling in COEP admissions?"],
+      "responses": [
+        "Counseling may be mandatory for certain courses or categories of candidates during COEP admissions. Its role typically involves providing guidance on course selection, clarifying doubts, and assisting candidates in making informed decisions. For specific counseling requirements, please refer to the official website or admission brochure.",
+        "In COEP admissions, counseling may be compulsory for specific courses or candidate categories. Its purpose usually includes offering advice on course preferences, resolving queries, and helping candidates in decision-making. To understand the role of counseling, check the official website or admission brochure.",
+        "For COEP admissions, counseling might be required for certain courses or candidate categories. Its function typically includes advising candidates on course options, addressing queries, and aiding in decision-making. For details regarding counseling, refer to the official website or admission brochure.",
+        "Counseling could be mandatory for certain courses or candidate groups during COEP admissions. Its role generally encompasses providing guidance on course selection, resolving queries, and assisting candidates in making informed choices. For specific counseling details, consult the official website or admission brochure.",
+        "During COEP admissions, counseling may be mandatory for specific courses or candidate categories. Its purpose usually involves guiding candidates on course preferences, addressing queries, and facilitating decision-making. To understand the counseling process better, refer to the official website or admission brochure."
+      ]
+    },
+    {
+      "tag": "admission_waiting_list",
+      "patterns": ["What happens if I am on the waiting list for COEP admissions?", "How does the waiting list work in COEP admissions?"],
+      "responses": [
+        "If you are placed on the waiting list for COEP admissions, it means that you are in line for a seat that may become available later due to withdrawals or cancellations. Candidates on the waiting list are informed if a seat becomes vacant, and they may be offered admission accordingly. For further details, please refer to the official website or admission brochure.",
+        "Being on the waiting list for COEP admissions implies that you are in queue for a seat that may become available later due to withdrawals or cancellations. Candidates on the waiting list are notified if a seat opens up, and they may receive admission accordingly. To learn more about the waiting list process, visit the official website or admission brochure.",
+        "If you find yourself on the waiting list for COEP admissions, it indicates that you are awaiting a seat that may become available later due to withdrawals or cancellations. Candidates on the waiting list are contacted if a seat becomes vacant, and they may be offered admission accordingly. For detailed information, refer to the official website or admission brochure.",
+        "Placement on the waiting list for COEP admissions means that you are in line for a seat that may become available later due to withdrawals or cancellations. Candidates on the waiting list are notified if a seat becomes vacant, and they may receive admission accordingly. To know more about the waiting list, consult the official website or admission brochure.",
+        "Being on the waiting list for COEP admissions suggests that you are in queue for a seat that may become available later due to withdrawals or cancellations. Candidates on the waiting list are informed if a seat becomes vacant, and they may be offered admission accordingly. For further insights, please refer to the official website or admission brochure."
+      ]
+    },
+    {
+      "tag": "admission_scholarships",
+      "patterns": ["Are there scholarships available for COEP students?", "What scholarship opportunities does COEP offer to students?"],
+      "responses": [
+        "COEP provides various scholarship opportunities to eligible students based on criteria such as academic merit, financial need, category-based scholarships, and scholarships from external organizations. Details regarding available scholarships and application procedures can be found on the official website or through the college's scholarship office.",
+        "Scholarship opportunities at COEP are available for eligible students based on factors like academic excellence, financial circumstances, category-based scholarships, and external scholarships. For information on available scholarships and how to apply, please visit the official website or contact the college's scholarship office.",
+        "There are several scholarship opportunities offered by COEP to eligible students, including scholarships based on academic performance, financial need, category-based scholarships, and those provided by external organizations. To learn about available scholarships and application processes, visit the official website or reach out to the college's scholarship office.",
+        "COEP offers various scholarship opportunities to eligible students, including scholarships based on academic merit, financial need, category-based scholarships, and those provided by external organizations. Information regarding available scholarships and application procedures can be found on the official website or obtained from the college's scholarship office.",
+        "Scholarship options at COEP are available for eligible students based on criteria such as academic achievement, financial need, category-based scholarships, and scholarships from external sources. To explore available scholarships and application processes, please refer to the official website or contact the college's scholarship office."
+      ]
+    },
+    {
+      "tag": "Applied Sciences",
+      "patterns": [
+        "What courses does the Department of Applied Sciences offer?",
+        "Can you tell me about the laboratories in the Department of Applied Sciences?",
+        "How does the Department of Applied Sciences contribute to rural development?",
+        "Is the Department of Applied Sciences involved in research?",
+        "What kind of counseling services does the Department of Applied Sciences provide?"
+      ],
+      "responses": [
+        "The Department of Applied Sciences offers multi-disciplinary courses in Chemistry, Biology, Advanced Engineering Materials, Polymer Technologies, Energy Materials, Professional Communication, Professional Ethics, Psychology, Environmental Science, Constitution of India, Intellectual Property Rights, Entrepreneurship Development, Critical Thinking, Liberal Learning Course, etc.",
+        "The Department of Applied Sciences has well-equipped laboratories including Chemistry Laboratory, Language Laboratory, Biology Laboratory (Microbiology, Nanobiotechnology, Molecular Biology, and Animal Tissue Culture), and Environmental Science Research Laboratory.",
+        "The department initiated Gramodyog to support rural industries and promote entrepreneurship among students from village backgrounds.",
+        "Yes, the Department of Applied Sciences is involved in research and is a recognized research center in Chemistry and Environmental Science affiliated with Savitribai Phule Pune University.",
+        "The Department of Applied Sciences provides guidance and psychological counseling sessions, language testing services, and conducts lectures and seminars on personality development, stress management, study skills, and life planning for students as well as faculty."
+      ]
+    },
+    {
+      "tag": "MBA Program",
+      "patterns": [
+        "What is the vision of the Department of Management Studies?",
+        "Can you tell me about the MBA program offered?",
+        "What are the key features of the MBA program?",
+        "How does the Department of Management Studies support student development?",
+        "What clubs and committees are available for MBA students?"
+      ],
+      "responses": [
+        "The vision of the Department of Management Studies is to empower visionaries, transform leaders, and shape the future of business excellence at COEP Technological University.",
+        "The Department of Management Studies offers a two-year full-time MBA Program with a focus on Finance, Marketing, and Business Analytics.",
+        "Key features of the MBA program include experienced faculty, industry partnerships, a curriculum integrating theory and practical insights, and various student-driven clubs and committees.",
+        "The Department of Management Studies supports student development through a student-centric approach, encouraging participation in decision-making practices, and offering various clubs and committees for enhancing leadership, management, and decision-making skills.",
+        "Clubs and committees available for MBA students include the Personality Development Program, Business Awareness Cell, Finance Club, Alumni Engagement Centre, and Placement Committee."
+      ]
+    },
+    {
+      "tag": "Electronics And Telecommunication",
+      "patterns": [
+        "What is the history of the Department of Electronics and Telecommunication?",
+        "Can you tell me about the infrastructure and resources of the Electronics and Telecommunication Department?",
+        "What research areas are covered by the Electronics and Telecommunication Department?",
+        "How does the department engage with industries and R&D organizations?",
+        "What programs are offered by the Electronics and Telecommunication Department?"
+      ],
+      "responses": [
+        "The Department of Electronics and Telecommunication was established in 1948 and has a tradition of attracting top merit students at both undergraduate and postgraduate levels.",
+        "The department offers excellent infrastructure and resources including knowledgeable faculty, well-equipped laboratories, and a vast collection of informative books in the library.",
+        "Research areas covered by the department include VLSI and Embedded Systems, Communication Networks, Computer Vision and Pattern Recognition, Signal Coding and Communication, Power Electronics and EMI/EMC, Multidimensional and Multimedia Signal Processing, and Optical Devices.",
+        "The department maintains a great rapport with industries and R&D organizations, engaging in technical and co-curricular activities, and collaborating on various projects.",
+        "The Department of Electronics and Telecommunication offers B.Tech. and M.Tech. programs."
+      ]
+    },
+    {
+      "tag": "Department of Planning",
+      "patterns": [
+        "When was the Town Planning Section founded?",
+        "Can you provide information about the Planning Department's programs?",
+        "What are the objectives of the Department of Planning?",
+        "How was the Department of Planning formulated?",
+        "Is there any collaboration with other departments?"
+      ],
+      "responses": [
+        "The Town Planning Section was founded in 1966.",
+        "The Department of Planning offers master's and bachelor's programs in Town and Country Planning.",
+        "The objectives of the Department of Planning are to produce the best planners for the nation, to take up challenges in physical and socio-environmental development, and to maintain global standards.",
+        "The Department of Planning was formulated on February 21, 2023, under the School of Civil Engineering and Planning at COEP Technological University.",
+        "Yes, the Department of Planning collaborates with other departments and organizations."
+      ]
+    },
+    {
+      "tag": "Bhau Institute",
+      "patterns": [
+        "Who were the founders of the Bhau Institute?",
+        "What is the idea behind the Bhau Institute?",
+        "Can you tell me about the initiatives of the Bhau Institute?",
+        "How does the Bhau Institute support student entrepreneurs?",
+        "Where can I find more information about the Bhau Institute?"
+      ],
+      "responses": [
+        "The founders of the Bhau Institute are Mr. Narendra Kale and Mr. Sanjay Inamdar.",
+        "The idea behind the Bhau Institute is to encourage students to find their own calling and unleash their full potential, providing guidance and support akin to an elder brother.",
+        "Initiatives of the Bhau Institute include promoting incubation of enterprises from COEP students and providing guidance and support to aspiring entrepreneurs.",
+        "The Bhau Institute supports student entrepreneurs by providing guidance, resources, and encouragement to pursue their dreams and ambitions.",
+        "More information about the Bhau Institute can be found on their website: https://bhau.org"
+      ]
+    },
+    {
+      "tag": "Department of Civil Engineering",
+      "patterns": [
+        "When was the Department of Civil Engineering established?",
+        "Can you tell me about the academic programs offered by the Department of Civil Engineering?",
+        "What facilities does the Department of Civil Engineering have?",
+        "How does the Department of Civil Engineering contribute to research?",
+        "What is the vision of the Department of Civil Engineering?"
+      ],
+      "responses": [
+        "The Department of Civil Engineering was established in 1854.",
+        "The Department of Civil Engineering offers undergraduate and postgraduate programs in various specializations including Construction Management, Environment & Water Resources Engineering, Geotechnical Engineering, Structural Engineering, and Transportation Engineering.",
+        "The Department of Civil Engineering has well-equipped laboratories, computational facilities, and testing facilities in material testing, soil testing, environmental engineering, and pavement materials.",
+        "The Department of Civil Engineering contributes to research in diverse areas such as Green Buildings, Regional and Urban Planning, GIS, Computational Mechanics, Pavement Technology, Earthquake Engineering, and more.",
+        "The vision of the Department of Civil Engineering is to develop constructive thinking and analytical capabilities in every student, striving to become a center of excellence in technical education and research."
+      ]
+    },
+    {
+      "tag": "Department of Metallurgy and Materials Engineering",
+      "patterns": [
+        "When was the Department of Metallurgy and Materials Engineering established?",
+        "Can you tell me about the programs offered by the Department of Metallurgy and Materials Engineering?",
+        "What is the intake capacity for the B.Tech. program?",
+        "How does the department engage with industry?",
+        "What research areas are covered by the Department of Metallurgy and Materials Engineering?"
+      ],
+      "responses": [
+        "The Department of Metallurgy and Materials Engineering was established in 1948.",
+        "The Department of Metallurgy and Materials Engineering offers B.Tech. and M.Tech. programs with specializations in Materials Engineering and Process Metallurgy.",
+        "The intake capacity for the B.Tech. program is 60 students with an additional 10 students admitted through the Diploma stream.",
+        "The department engages with the industry through collaboration, training programs, and projects, fulfilling the rising demand for skilled human resources in metallurgical and materials engineering.",
+        "Research areas covered by the Department of Metallurgy and Materials Engineering include materials engineering, process metallurgy, and more."
+      ]
+    },
+    {
+      "tag": "Department of Manufacturing Engineering And Industrial Management",
+      "patterns": [
+        "When was the Department of Manufacturing Engineering And Industrial Management established?",
+        "Can you tell me about the programs offered by the Department of Manufacturing Engineering And Industrial Management?",
+        "What are the key features of the department?",
+        "How does the department prepare students for the industry?",
+        "What resources are available in the department?"
+      ],
+      "responses": [
+        "The Department of Manufacturing Engineering And Industrial Management was established in 1994.",
+        "The department offers undergraduate and postgraduate programs in Production Engineering.",
+        "Key features of the department include dedicated and experienced faculty, modernized workshop facilities, and collaboration with MIT's Center for Bits and Atoms.",
+        "The department prepares students for the industry through hands-on experience, outreach projects, and collaboration with academia and industries.",
+        "Resources available in the department include CNC machines, a centralized Robotics and Automation Laboratory, and a Fab Lab."
+      ]
+    },
+    {
+      "tag": "Mathematics",
+      "patterns": [
+        "What is the importance of Mathematics in Engineering education?",
+        "Can you tell me about the faculty in the Mathematics Department?",
+        "What courses does the Mathematics Department offer?",
+        "How does the Mathematics Department support engineering students?",
+        "Are there any special initiatives undertaken by the Mathematics Department?"
+      ],
+      "responses": [
+        "Mathematics is the backbone of all Engineering Sciences, and it plays a crucial role in Engineering education.",
+        "The Mathematics Department consists of a young and enthusiastic faculty, including associate professors, assistant professors, adjunct professors, and an emeritus professor.",
+        "The Mathematics Department offers courses in Engineering Mathematics for both undergraduate and postgraduate programs.",
+        "The Mathematics Department supports engineering students by providing a strong foundation in mathematical concepts and principles.",
+        "Special initiatives undertaken by the Mathematics Department include various programs and refresher courses for faculty and students, as well as participation in seminars and conferences."
+      ]
+    },
+    {
+      "tag": "Department of Applied Sciences - Consultancy Services",
+      "patterns": [
+        "What consultancy services does the Department of Applied Sciences offer?",
+        "Can you provide examples of consultancy projects undertaken by the Department of Applied Sciences?",
+        "How can industries benefit from the consultancy services provided by the Department of Applied Sciences?",
+        "Are there specific areas of expertise within the Department of Applied Sciences for consultancy?"
+      ],
+      "responses": [
+        "The Department of Applied Sciences offers consultancy services in various areas including testing of industrial samples such as cement, polymers, water, etc., as well as consultancy for industrial and government projects in Analytical Instrumentation, Drug Design, Environmental Impact Assessment, Biofertilizers, and Human Resources related issues.",
+        "Examples of consultancy projects undertaken by the Department of Applied Sciences include testing of industrial samples for quality control purposes, providing expertise in drug design for pharmaceutical companies, conducting environmental impact assessments for government projects, and offering consultancy on human resources issues for industries.",
+        "Industries can benefit from the consultancy services provided by the Department of Applied Sciences by accessing the department's expertise and resources to solve technical problems, improve product quality, comply with regulations, and enhance overall efficiency and effectiveness.",
+        "Areas of expertise within the Department of Applied Sciences for consultancy include Analytical Instrumentation, Drug Design, Environmental Impact Assessment, Biofertilizers, and Human Resources related issues."
+      ]
+    },
+    {
+      "tag": "Department of Management Studies - Faculty Expertise",
+      "patterns": [
+        "What expertise do the faculty members of the Department of Management Studies possess?",
+        "Can you provide examples of industry experience among the faculty of the Department of Management Studies?",
+        "How does the industry experience of faculty members benefit students?",
+        "Are there any notable achievements of the faculty members in the Department of Management Studies?"
+      ],
+      "responses": [
+        "The faculty members of the Department of Management Studies possess expertise in various domains including Finance, Marketing, Business Analytics, Operations, Human Resources, and Entrepreneurship. Many faculty members have industry experience and research expertise in their respective fields.",
+        "Examples of industry experience among the faculty of the Department of Management Studies include working in top corporations, leading business ventures, consulting for industry partners, and participating in industry forums and associations.",
+        "The industry experience of faculty members benefits students by providing real-world insights, practical knowledge, industry connections, and mentorship in career development. Students can learn from faculty members' experiences and apply them to their academic and professional pursuits.",
+        "Notable achievements of the faculty members in the Department of Management Studies include publications in reputed journals, presentations at international conferences, awards and recognitions for teaching excellence, and contributions to industry best practices and standards."
+      ]
+    },
+    {
+      "tag": "Department of Electronics And Telecommunication - Research Focus",
+      "patterns": [
+        "What are the primary research areas of focus in the Department of Electronics and Telecommunication?",
+        "Can you provide examples of research projects undertaken by the Department of Electronics and Telecommunication?",
+        "How does the department collaborate with other institutions and industries for research?",
+        "Are there any notable achievements or publications resulting from research in the Department of Electronics and Telecommunication?"
+      ],
+      "responses": [
+        "The primary research areas of focus in the Department of Electronics and Telecommunication include VLSI and Embedded Systems, Communication Networks, Computer Vision and Pattern Recognition, Signal Coding and Communication, Power Electronics and EMI/EMC, Multidimensional and Multimedia Signal Processing, and Optical Devices.",
+        "Examples of research projects undertaken by the Department of Electronics and Telecommunication include the development of novel communication protocols, design and optimization of VLSI circuits, implementation of computer vision algorithms, analysis of signal processing techniques, and exploration of optical device applications.",
+        "The department collaborates with other institutions and industries for research through joint research programs, collaborative projects, industry-sponsored research, technology transfer initiatives, and participation in consortia and research networks.",
+        "Notable achievements resulting from research in the Department of Electronics and Telecommunication include publications in reputed journals and conferences, patents and intellectual property rights, technology transfer agreements with industry partners, and contributions to advancements in the field of electronics and telecommunication."
+      ]
+    },
+    {
+      "tag": "Department of Civil Engineering - Industry Collaboration",
+      "patterns": [
+        "How does the Department of Civil Engineering collaborate with industries?",
+        "Can you provide examples of industry partnerships and projects undertaken by the Department of Civil Engineering?",
+        "What benefits do industry collaborations bring to students and faculty?",
+        "Are there any success stories resulting from industry collaborations in the Department of Civil Engineering?"
+      ],
+      "responses": [
+        "The Department of Civil Engineering collaborates with industries through various initiatives including sponsored research projects, consultancy services, industry visits, internships, guest lectures by industry experts, and participation in industry forums and conferences.",
+        "Examples of industry partnerships and projects undertaken by the Department of Civil Engineering include consulting for infrastructure development projects, testing and evaluation of construction materials, collaboration with construction companies on innovative projects, and joint research ventures with industry partners.",
+        "Industry collaborations bring benefits to students and faculty such as exposure to real-world challenges, opportunities for hands-on experience, access to industry expertise and resources, networking opportunities, and potential career prospects.",
+        "Success stories resulting from industry collaborations in the Department of Civil Engineering include innovative solutions for infrastructure development, sustainable construction practices, adoption of advanced technologies in construction projects, and recognition for contributions to industry best practices and standards."
+      ]
+    },
+    {
+      "tag": "Department of Planning - Academic Programs",
+      "patterns": [
+        "What academic programs are offered by the Department of Planning?",
+        "Can you provide details about the master's program in Town and Country Planning?",
+        "Are there any unique features or specializations in the academic programs of the Department of Planning?",
+        "How does the Department of Planning contribute to the development of planners?"
+      ],
+      "responses": [
+        "The Department of Planning offers academic programs in Town and Country Planning, including a master's program and a four-year bachelor course.",
+        "The master's program in Town and Country Planning is one of the largest and most respected postgraduate programs in the state and country. It focuses on producing planners equipped to address the challenges of physical and socio-environmental development.",
+        "Unique features of the academic programs in the Department of Planning include a comprehensive curriculum covering regional and urban planning, GIS, environmental assessment, and global standards. Specializations may include Urban Planning, Regional Planning, Environmental Planning, and Transportation Planning.",
+        "The Department of Planning contributes to the development of planners by providing quality education, hands-on training, exposure to industry practices, research opportunities, and collaborations with government agencies and planning organizations."
+      ]
+    },
+    {
+      "tag": "Bhau Institute of Innovation, Entrepreneurship and Leadership - Mission",
+      "patterns": [
+        "What is the mission of the Bhau Institute of Innovation, Entrepreneurship and Leadership?",
+        "Who are the founders of the Bhau Institute?",
+        "Can you explain the significance of the name 'Bhau'?",
+        "How does the Bhau Institute support innovation and entrepreneurship among COEP students?"
+      ],
+      "responses": [
+        "The mission of the Bhau Institute of Innovation, Entrepreneurship and Leadership is to promote incubation of enterprises from among COEP students and empower them to pursue their entrepreneurial aspirations.",
+        "The founders of the Bhau Institute are Mr. Narendra Kale, an alumnus of COEP, and Mr. Sanjay Inamdar, a successful entrepreneur.",
+        "The name 'Bhau' signifies the relationship of an elder brother, symbolizing guidance, support, and encouragement for students to pursue their dreams and ambitions.",
+        "The Bhau Institute supports innovation and entrepreneurship among COEP students by providing resources, mentorship, networking opportunities, funding support, and access to incubation facilities. It encourages students to explore their entrepreneurial potential and turn their ideas into viable ventures."
+      ]
+    },
+    {
+      "tag": "Gramodyog Initiative",
+      "patterns": [
+        "What is the Gramodyog initiative?",
+        "How does the Gramodyog initiative promote entrepreneurship among students?",
+        "Can you provide examples of ventures initiated under the Gramodyog initiative?",
+        "What support does the Gramodyog initiative offer to students from rural backgrounds?"
+      ],
+      "responses": [
+        "The Gramodyog initiative aims to support existing rural-based industries and promote entrepreneurship among students from rural backgrounds.",
+        "The Gramodyog initiative promotes entrepreneurship among students by providing them with access to appropriate technology, training, mentorship, and resources to start their own ventures.",
+        "Examples of ventures initiated under the Gramodyog initiative include agricultural startups, rural technology enterprises, handicraft businesses, and sustainable development projects.",
+        "The Gramodyog initiative offers support to students from rural backgrounds through skill development programs, technology transfer initiatives, financial assistance, market linkages, and networking opportunities."
+      ]
+    },
+    {
+      "tag": "Personality Development Program",
+      "patterns": [
+        "What is the Personality Development Program?",
+        "How does the Personality Development Program benefit students?",
+        "Who conducts the sessions for the Personality Development Program?",
+        "What topics are covered in the Personality Development Program?"
+      ],
+      "responses": [
+        "The Personality Development Program is designed to enhance students' personal and professional skills, including communication, leadership, confidence, and self-awareness.",
+        "The Personality Development Program benefits students by helping them develop essential skills for success in academics, career, and personal life. It enables them to communicate effectively, build confidence, manage stress, and adapt to diverse situations.",
+        "The sessions for the Personality Development Program are conducted by experts and professionals with experience in areas such as soft skills training, leadership development, communication coaching, and personal branding.",
+        "Topics covered in the Personality Development Program include communication skills, interpersonal skills, leadership development, time management, goal setting, emotional intelligence, and stress management."
+      ]
+    },
+    {
+      "tag": "Business Awareness Cell",
+      "patterns": [
+        "What is the Business Awareness Cell?",
+        "How does the Business Awareness Cell contribute to students' understanding of business trends?",
+        "Can you provide examples of business insights provided by the Business Awareness Cell?",
+        "What platforms does the Business Awareness Cell use to disseminate information?"
+      ],
+      "responses": [
+        "The Business Awareness Cell is an organization dedicated to providing students with insights into business trends, market dynamics, economic events, and technological advancements.",
+        "The Business Awareness Cell contributes to students' understanding of business trends by curating and disseminating information through various channels, including newsletters, podcasts, presentations, and workshops.",
+        "Examples of business insights provided by the Business Awareness Cell include analysis of market trends, economic indicators, industry reports, and case studies on business strategy and innovation.",
+        "The Business Awareness Cell uses platforms such as newsletters, podcasts, social media, and dedicated communication channels to disseminate information and engage with students, faculty, and industry professionals."
+      ]
+    },
+    {
+      "tag": "Finance Club - Mission",
+      "patterns": [
+        "What is the mission of the Finance Club?",
+        "How does the Finance Club promote financial literacy among students?",
+        "Can you provide examples of activities organized by the Finance Club?",
+        "What resources does the Finance Club offer to students interested in finance?"
+      ],
+      "responses": [
+        "The mission of the Finance Club is to foster financial literacy, awareness, and interest among students and provide opportunities for learning, networking, and professional development in the field of finance.",
+        "The Finance Club promotes financial literacy among students by organizing workshops, seminars, guest lectures, and hands-on activities related to finance, investment, banking, and financial markets.",
+        "Examples of activities organized by the Finance Club include stock market simulations, investment competitions, financial planning workshops, guest lectures by industry experts, and visits to financial institutions.",
+        "The Finance Club offers resources such as access to financial databases, research reports, online courses, professional certifications, and career guidance for students interested in finance."
+      ]
+    },
+    {
+      "tag": "Alumni Engagement Centre - Services",
+      "patterns": [
+        "What services are offered by the Alumni Engagement Centre?",
+        "How does the Alumni Engagement Centre support alumni in their professional development?",
+        "Can you provide examples of programs organized by the Alumni Engagement Centre?",
+        "What benefits do alumni receive from engaging with the Alumni Engagement Centre?"
+      ],
+      "responses": [
+        "The Alumni Engagement Centre offers a range of services to alumni, including professional development workshops, career counseling, mentoring programs, networking events, and access to resources and opportunities.",
+        "The Alumni Engagement Centre supports alumni in their professional development by providing personalized guidance, skill enhancement programs, job placement assistance, and networking opportunities with fellow alumni, industry professionals, and academic experts.",
+        "Examples of programs organized by the Alumni Engagement Centre include webinars on industry trends, panel discussions on career paths, alumni networking events, mentorship programs, and alumni recognition ceremonies.",
+        "Benefits of engaging with the Alumni Engagement Centre include access to career resources, job opportunities, professional networks, lifelong learning opportunities, and a sense of community and belonging within the COEP alumni network."
+      ]
+    },
+    {
+      "tag": "Department of Civil Engineering - Academic Programs",
+      "patterns": [
+        "What academic programs are offered by the Department of Civil Engineering?",
+        "Can you provide details about the undergraduate programs in Civil Engineering?",
+        "Are there any specialized fields of study within Civil Engineering at COEP?",
+        "How does the Department of Civil Engineering contribute to research and development?"
+      ],
+      "responses": [
+        "The Department of Civil Engineering offers undergraduate and postgraduate programs.",
+        "The undergraduate programs in Civil Engineering include a four-year Bachelor of Technology (B.Tech) degree.",
+        "Specialized fields of study within Civil Engineering at COEP include Structural Engineering, Geotechnical Engineering, Environmental Engineering, Transportation Engineering, and Construction Management.",
+        "The Department of Civil Engineering contributes to research and development through academic collaborations, industry partnerships, funded projects, and participation in national and international conferences and seminars."
+      ]
+    },
+    {
+      "tag": "Department of Metallurgy and Materials Engineering - Academic Programs",
+      "patterns": [
+        "What academic programs are offered by the Department of Metallurgy and Materials Engineering?",
+        "Can you provide details about the undergraduate program in Metallurgy and Materials Engineering?",
+        "Are there any postgraduate programs available in the field?",
+        "How does the Department of Metallurgy and Materials Engineering support research and innovation?"
+      ],
+      "responses": [
+        "The Department of Metallurgy and Materials Engineering offers undergraduate and postgraduate programs.",
+        "The undergraduate program in Metallurgy and Materials Engineering offers a Bachelor of Technology (B.Tech) degree.",
+        "Postgraduate programs in the field include Master of Technology (M.Tech) degrees in Materials Engineering and Process Metallurgy.",
+        "The Department of Metallurgy and Materials Engineering supports research and innovation through state-of-the-art laboratories, collaborative projects with industries, research publications, and participation in national and international conferences."
+      ]
+    },
+    {
+      "tag": "Department of Manufacturing Engineering And Industrial Management - Academic Programs",
+      "patterns": [
+        "What academic programs are offered by the Department of Manufacturing Engineering And Industrial Management?",
+        "Can you provide details about the undergraduate program in Production Engineering?",
+        "Are there any specialized fields of study within Manufacturing Engineering at COEP?",
+        "How does the Department of Manufacturing Engineering And Industrial Management promote industry-academia collaboration?"
+      ],
+      "responses": [
+        "The Department of Manufacturing Engineering And Industrial Management offers undergraduate and postgraduate programs.",
+        "The undergraduate program in Production Engineering offers a Bachelor of Technology (B.Tech) degree.",
+        "Specialized fields of study within Manufacturing Engineering at COEP include Manufacturing Processes, Quality Management, Design Engineering, Industrial Automation, and Supply Chain Management.",
+        "The Department of Manufacturing Engineering And Industrial Management promotes industry-academia collaboration through internships, industry-sponsored projects, guest lectures, workshops, and consultancy services."
+      ]
+    },
+    {
+      "tag": "Department of Mathematics - Academic Programs",
+      "patterns": [
+        "What academic programs are offered by the Department of Mathematics?",
+        "Can you provide details about the Mathematics courses for engineering students?",
+        "Are there any specialized courses in Mathematics at COEP?",
+        "How does the Department of Mathematics support interdisciplinary research?"
+      ],
+      "responses": [
+        "The Department of Mathematics offers courses for engineering students as part of their curriculum.",
+        "Mathematics courses for engineering students cover topics such as Calculus, Differential Equations, Linear Algebra, Probability, and Statistics.",
+        "Specialized courses in Mathematics at COEP may include Advanced Calculus, Numerical Methods, Operations Research, Optimization Techniques, and Mathematical Modeling.",
+        "The Department of Mathematics supports interdisciplinary research by collaborating with other departments on projects involving mathematical modeling, simulation, optimization, and data analysis."
+      ]
+    },
+    {
+      "tag": "Department of Electronics And Telecommunication - Academic Programs",
+      "patterns": [
+        "What academic programs are offered by the Department of Electronics And Telecommunication?",
+        "Can you provide details about the undergraduate program in Electronics And Telecommunication Engineering?",
+        "Are there any postgraduate programs available in the field?",
+        "How does the Department of Electronics And Telecommunication foster innovation in telecommunications?"
+      ],
+      "responses": [
+        "The Department of Electronics And Telecommunication offers undergraduate and postgraduate programs.",
+        "The undergraduate program in Electronics And Telecommunication Engineering offers a Bachelor of Technology (B.Tech) degree.",
+        "Postgraduate programs in the field include Master of Technology (M.Tech) degrees in Electronics And Telecommunication Engineering with specializations in areas such as VLSI Design, Communication Systems, and Signal Processing.",
+        "The Department of Electronics And Telecommunication fosters innovation in telecommunications through research projects, industry collaborations, technology incubation, and participation in conferences and symposiums."
+      ]
+    },
+    {
+      "tag": "Department of Planning - Achievements",
+      "patterns": [
+        "What are some notable achievements of the Department of Planning?",
+        "Can you provide examples of projects undertaken by the Department of Planning?",
+        "How has the Department of Planning contributed to urban development?",
+        "Are there any awards or recognitions received by the Department of Planning?"
+      ],
+      "responses": [
+        "Some notable achievements of the Department of Planning include successful completion of urban development projects, research publications, industry collaborations, and contributions to policy development.",
+        "Projects undertaken by the Department of Planning include urban renewal schemes, city master plans, environmental impact assessments, transportation planning studies, and community development initiatives.",
+        "The Department of Planning has contributed to urban development through sustainable planning practices, community engagement programs, infrastructure development projects, and policy recommendations.",
+        "The Department of Planning has received awards and recognitions for excellence in urban planning, innovative solutions, and contributions to industry best practices and standards."
+      ]
+    },
+    {
+      "tag": "Bhau Institute of Innovation, Entrepreneurship and Leadership - Initiatives",
+      "patterns": [
+        "What initiatives are undertaken by the Bhau Institute of Innovation, Entrepreneurship and Leadership?",
+        "Can you provide examples of entrepreneurship initiatives supported by the Bhau Institute?",
+        "How does the Bhau Institute promote innovation among COEP students?",
+        "Are there any success stories or startups incubated by the Bhau Institute?"
+      ],
+      "responses": [
+        "The Bhau Institute of Innovation, Entrepreneurship and Leadership undertakes various initiatives to foster innovation and entrepreneurship among COEP students and alumni.",
+        "Examples of entrepreneurship initiatives supported by the Bhau Institute include startup incubation programs, business plan competitions, mentorship schemes, and access to funding and resources.",
+        "The Bhau Institute promotes innovation among COEP students through hackathons, innovation challenges, design thinking workshops, and collaborative projects with industry partners.",
+        "The Bhau Institute has incubated several successful startups in areas such as technology, healthcare, sustainability, and social impact, with many alumni entrepreneurs receiving recognition and funding for their ventures."
+      ]
+    },
+    {
+      "tag": "Department of Mathematics - Faculty Expertise",
+      "patterns": [
+        "What expertise do the faculty members of the Department of Mathematics possess?",
+        "Can you provide information about the research interests of Mathematics faculty?",
+        "How do Mathematics faculty members contribute to interdisciplinary research?",
+        "Are there any notable achievements or awards received by Mathematics faculty?"
+      ],
+      "responses": [
+        "Faculty members of the Department of Mathematics possess expertise in various areas of pure and applied mathematics, including calculus, algebra, geometry, statistics, and mathematical modeling.",
+        "Research interests of Mathematics faculty members include mathematical analysis, numerical methods, optimization, probability theory, mathematical physics, and computational mathematics.",
+        "Mathematics faculty members contribute to interdisciplinary research by collaborating with colleagues from other departments on projects involving mathematical modeling, data analysis, optimization algorithms, and simulation studies.",
+        "Several Mathematics faculty members have received awards and recognitions for their contributions to research, teaching excellence, and professional achievements in the field of mathematics."
+      ]
+    },
+    {
+      "tag": "Department of Civil Engineering - Infrastructure",
+      "patterns": [
+        "What infrastructure facilities are available in the Department of Civil Engineering?",
+        "Can you provide details about the laboratories and workshops in the Civil Engineering department?",
+        "How does the department utilize its infrastructure to support teaching and research?",
+        "Are there any ongoing infrastructure development projects in the department?"
+      ],
+      "responses": [
+        "The Department of Civil Engineering has state-of-the-art infrastructure facilities to support teaching, research, and practical training.",
+        "Infrastructure facilities in the Civil Engineering department include laboratories for materials testing, soil mechanics, concrete technology, environmental engineering, structural analysis, and transportation studies, as well as workshops for surveying, drafting, and construction practices.",
+        "The department utilizes its infrastructure to provide hands-on training to students, conduct experiments and research studies, collaborate with industries on testing and analysis, and facilitate project work and consultancy services.",
+        "There may be ongoing infrastructure development projects in the department aimed at upgrading facilities, modernizing equipment, and enhancing the overall learning environment for students and faculty."
+      ]
+    },
+    {
+      "tag": "Department of Metallurgy and Materials Engineering - Industry Collaboration",
+      "patterns": [
+        "How does the Department of Metallurgy and Materials Engineering collaborate with industries?",
+        "Can you provide examples of industry projects undertaken by the department?",
+        "Are there any industrial training programs or internships offered by the department?",
+        "What benefits do students gain from industry collaboration in Metallurgy and Materials Engineering?"
+      ],
+      "responses": [
+        "The Department of Metallurgy and Materials Engineering collaborates with industries through various initiatives, including sponsored projects, consultancy services, joint research programs, and industry-academia partnerships.",
+        "Examples of industry projects undertaken by the department include material testing and analysis, process optimization, product development, failure analysis, and quality assurance.",
+        "The department offers industrial training programs, internships, and hands-on experience to students through industry visits, guest lectures by industry experts, collaborative projects, and summer internships.",
+        "Students gain valuable exposure to real-world challenges, industry practices, emerging technologies, and professional networks through industry collaboration, which enhances their employability, practical skills, and career prospects in Metallurgy and Materials Engineering."
+      ]
+    },
+    {
+      "tag": "Computer Engineering Courses",
+      "patterns": [
+        "What courses are offered by the Department of Computer Engineering?",
+        "Can you list the undergraduate courses offered in Computer Engineering?",
+        "Are there any postgraduate courses available in Computer Engineering?",
+        "Could you provide details about the undergraduate and postgraduate courses in Computer Engineering?",
+        "What is the intake capacity for undergraduate and postgraduate courses in Computer Engineering?"
+      ],
+      "responses": [
+        "The Department of Computer Engineering offers undergraduate and postgraduate courses.",
+        "The undergraduate courses offered are Computer Engineering and Information Technology.",
+        "Yes, there are postgraduate courses available in Computer Engineering and Information Security.",
+        "The undergraduate courses have an intake of 60 students each, while the postgraduate course in Computer Engineering has an intake of 18 students, and Information Security has an intake of 24 students.",
+        "The undergraduate courses provide a comprehensive education in Computer Engineering and Information Technology, while the postgraduate courses focus on advanced topics in Computer Engineering and Information Security."
+      ]
+    },
+    {
+      "tag": "Research in Computer Engineering",
+      "patterns": [
+        "What is the focus of research in the Department of Computer Engineering?",
+        "Can you tell me about the research activities in Computer Engineering?",
+        "Are there any specific research areas within Computer Engineering?"
+      ],
+      "responses": [
+        "The research in the Department of Computer Engineering addresses the needs of society.",
+        "Research activities in Computer Engineering aim to contribute to the advancement of technology and solve real-world problems.",
+        "Some specific research areas within Computer Engineering include artificial intelligence, machine learning, data science, cybersecurity, and software engineering."
+      ]
+    },
+    {
+      "tag": "Student Achievements in Computer Engineering",
+      "patterns": [
+        "What achievements have students of the Department of Computer Engineering attained?",
+        "Can you provide examples of student achievements in Computer Engineering?",
+        "Have students from Computer Engineering won any awards or competitions?"
+      ],
+      "responses": [
+        "Students of the Department of Computer Engineering have won numerous awards and competitions.",
+        "Examples of student achievements include winning hackathons, coding competitions, and research paper presentations at international conferences.",
+        "Yes, students from Computer Engineering have won awards and competitions in various fields such as programming, robotics, and software development."
+      ]
+    },
+    {
+      "tag": "Placement Record of Computer Engineering",
+      "patterns": [
+        "What is the placement record of the Department of Computer Engineering?",
+        "Can you provide information about placements for Computer Engineering students?",
+        "How successful are Computer Engineering students in securing job placements?"
+      ],
+      "responses": [
+        "The placement record of the Department of Computer Engineering has been excellent.",
+        "Computer Engineering students have been placed in renowned companies in India and abroad.",
+        "The department has a strong track record of students securing job placements in top-tier companies in the IT industry."
+      ]
+    },
+    {
+      "tag": "Open-Source Software Development",
+      "patterns": [
+        "How does the Department of Computer Engineering promote open-source software development?",
+        "Can you explain the involvement of students in open-source projects?",
+        "Are there any initiatives in Computer Engineering to encourage open-source contributions?"
+      ],
+      "responses": [
+        "The Department of Computer Engineering encourages students to participate in open-source software development.",
+        "Students are actively involved in contributing to open-source projects, both individually and as part of coursework.",
+        "Initiatives such as hackathons, coding competitions, and collaborative projects with industry partners are organized to foster open-source contributions among students."
+      ]
+    },
+    {
+      "tag": "Computer Engineering Faculty",
+      "patterns": [
+        "Who are the faculty members in the Department of Computer Engineering?",
+        "Can you provide information about the faculty of Computer Engineering?",
+        "Who leads the Department of Computer Engineering?"
+      ],
+      "responses": [
+        "The Department of Computer Engineering has a highly qualified faculty.",
+        "Faculty members in Computer Engineering are experts in their respective fields and actively engage in teaching and research.",
+        "Dr. P. K. Deshmukh leads the Department of Computer Engineering."
+      ]
+    },
+    {
+      "tag": "Ph.D. Programme in Computer Engineering",
+      "patterns": [
+        "Is there a Ph.D. programme available in Computer Engineering?",
+        "Can you provide details about the Ph.D. programme in Computer Engineering?"
+      ],
+      "responses": [
+        "Yes, there is a Ph.D. programme available in Computer Engineering.",
+        "The Ph.D. programme in Computer Engineering offers opportunities for advanced research and academic development."
+      ]
+    },
+    {
+      "tag": "Student Involvement in Research",
+      "patterns": [
+        "Are students actively involved in research in Computer Engineering?",
+        "Do students have opportunities for research projects in Computer Engineering?"
+      ],
+      "responses": [
+        "Yes, students are actively involved in research projects in Computer Engineering.",
+        "Students have opportunities to collaborate with faculty on research projects and pursue their own research interests."
+      ]
+    },
+    {
+      "tag": "Industry Collaborations",
+      "patterns": [
+        "Does the Department of Computer Engineering collaborate with industries?",
+        "Are there any industry partnerships in Computer Engineering?"
+      ],
+      "responses": [
+        "Yes, the Department of Computer Engineering collaborates with industries.",
+        "Industry partnerships in Computer Engineering provide opportunities for internships, projects, and collaborative research."
+      ]
+    },
+    {
+      "tag": "Facilities in Computer Engineering",
+      "patterns": [
+        "What facilities are available for students in Computer Engineering?",
+        "Can you describe the laboratories and resources in Computer Engineering?"
+      ],
+      "responses": [
+        "Computer Engineering students have access to state-of-the-art facilities.",
+        "The department provides well-equipped laboratories, computing resources, and libraries to support student learning and research."
+      ]
+    },
+    {
+      "tag": "Clubs at COEP",
+      "patterns": [
+        "Can you provide more information about the clubs at COEP?",
+        "I'd like to know about additional clubs and societies at College of Engineering Pune.",
+        "Tell me about more clubs and societies at COEP."
+      ],
+      "responses": [
+        "Certainly! Here are some more clubs and societies at College of Engineering Pune (COEP):\n11. Satellite Team: Working on building a pico-satellite to improve communication in coastal areas.\n12. Aero Zealous: Club for RC plane enthusiasts.\n13. Ham Club: Conducts workshops and provides technical support during college events.\n14. Spandan: Conducts social development programs and initiatives like river-cleaning projects and blood donation camps.\n15. History Club: Organizes lectures and events to promote awareness of historical topics.\n\nThese are some additional clubs that contribute to the vibrant community at COEP."
+      ]
+    },
+    {
+      "tag": "Clubs at COEP",
+      "patterns": [
+        "Can you provide more information about the clubs at COEP?",
+        "I'd like to know about additional clubs and societies at College of Engineering Pune.",
+        "Tell me about more clubs and societies at COEP."
+      ],
+      "responses": [
+        "Certainly! Here are some more clubs and societies at College of Engineering Pune (COEP):\n11. Satellite Team: Working on building a pico-satellite to improve communication in coastal areas.\n12. Aero Zealous: Club for RC plane enthusiasts.\n13. Ham Club: Conducts workshops and provides technical support during college events.\n14. Spandan: Conducts social development programs and initiatives like river-cleaning projects and blood donation camps.\n15. History Club: Organizes lectures and events to promote awareness of historical topics.\n\nThese are some additional clubs that contribute to the vibrant community at COEP."
+      ]
+    },
+    {
+      "tag": "Environmental Club",
+      "patterns": [
+        "What activities does the Environmental Club at COEP engage in?",
+        "Can you tell me more about the Environmental Club?",
+        "What is the purpose of the Environmental Club at COEP?",
+        "How does the Environmental Club contribute to the community?",
+        "What initiatives does the Environmental Club undertake?"
+      ],
+      "responses": [
+        "The Environmental Club at COEP engages in various activities aimed at promoting environmental awareness and sustainability.",
+        "The Environmental Club's purpose is to raise awareness about environmental issues and encourage sustainable practices among students.",
+        "The Environmental Club contributes to the community by organizing events such as tree plantations, waste management drives, and awareness campaigns.",
+        "The Environmental Club undertakes initiatives such as organizing clean-up drives, conducting workshops on eco-friendly practices, and advocating for environmental conservation.",
+        "Initiatives of the Environmental Club include organizing seminars on climate change, collaborating with local authorities for waste management programs, and promoting eco-friendly lifestyles."
+      ]
+    },
+    {
+      "tag": "Dance Club",
+      "patterns": [
+        "What kind of dance activities does the Dance Club organize?",
+        "Can you provide more information about the Dance Club at COEP?",
+        "How can I get involved with the Dance Club?",
+        "Tell me about the events organized by the Dance Club.",
+        "What dance styles does the Dance Club focus on?"
+      ],
+      "responses": [
+        "The Dance Club organizes various dance activities including workshops, rehearsals, and performances showcasing different dance styles.",
+        "The Dance Club at COEP is a vibrant community of dancers passionate about various dance forms.",
+        "To get involved with the Dance Club, you can attend their workshops, auditions, and rehearsals, or participate in their events and performances.",
+        "Events organized by the Dance Club include annual dance competitions, cultural nights, and participation in intercollegiate dance festivals.",
+        "The Dance Club focuses on a wide range of dance styles including classical, contemporary, hip-hop, folk, and Bollywood."
+      ]
+    },
+    {
+      "tag": "Music Club",
+      "patterns": [
+        "What musical activities does the Music Club engage in?",
+        "Can you provide more information about the Music Club at COEP?",
+        "How can I join the Music Club?",
+        "Tell me about the events organized by the Music Club.",
+        "What genres of music does the Music Club focus on?"
+      ],
+      "responses": [
+        "The Music Club engages in various musical activities including jam sessions, workshops, and performances showcasing different genres of music.",
+        "The Music Club at COEP is a community of musicians and music enthusiasts who share a passion for music.",
+        "To join the Music Club, you can attend their jam sessions, auditions, and workshops, or participate in their events and performances.",
+        "Events organized by the Music Club include musical concerts, talent shows, and participation in intercollegiate music competitions.",
+        "The Music Club focuses on a wide range of music genres including classical, rock, pop, jazz, and Indian fusion."
+      ]
+    },
+    {
+      "tag": "Literary Club",
+      "patterns": [
+        "What literary activities does the Literary Club organize?",
+        "Can you provide more information about the Literary Club at COEP?",
+        "How can I participate in the Literary Club?",
+        "Tell me about the events organized by the Literary Club.",
+        "What literary genres does the Literary Club focus on?"
+      ],
+      "responses": [
+        "The Literary Club organizes various literary activities including book readings, poetry recitations, debates, and writing workshops.",
+        "The Literary Club at COEP is a community of literature enthusiasts who share a love for reading, writing, and storytelling.",
+        "To participate in the Literary Club, you can attend their meetings, workshops, and events, or contribute your creative work for publication.",
+        "Events organized by the Literary Club include literary festivals, open mic nights, book discussions, and poetry slams.",
+        "The Literary Club focuses on a wide range of literary genres including fiction, poetry, drama, non-fiction, and spoken word."
+      ]
+    },
+    {
+      "tag": "Sports Club",
+      "patterns": [
+        "What sports activities does the Sports Club organize?",
+        "Can you provide more information about the Sports Club at COEP?",
+        "How can I join the Sports Club?",
+        "Tell me about the events organized by the Sports Club.",
+        "What sports and games does the Sports Club focus on?"
+      ],
+      "responses": [
+        "The Sports Club organizes various sports activities including tournaments, matches, training sessions, and fitness programs.",
+        "The Sports Club at COEP is a community of sports enthusiasts who share a passion for physical fitness and athletic competition.",
+        "To join the Sports Club, you can participate in their training sessions, trials, and matches, or represent COEP in intercollegiate sports events.",
+        "Events organized by the Sports Club include annual sports meets, inter-department tournaments, and participation in university-level sports competitions.",
+        "The Sports Club focuses on a wide range of sports and games including cricket, football, basketball, badminton, table tennis, athletics, and volleyball."
+      ]
+    },
+    {
+      "tag": "Debating Society",
+      "patterns": [
+        "What debating activities does the Debating Society organize?",
+        "Can you provide more information about the Debating Society at COEP?",
+        "How can I become a member of the Debating Society?",
+        "Tell me about the events organized by the Debating Society.",
+        "What topics does the Debating Society discuss?"
+      ],
+      "responses": [
+        "The Debating Society organizes various debating activities such as debates, discussions, mock trials, and public speaking workshops.",
+        "The Debating Society at COEP is a platform for students to engage in intellectual discourse, develop communication skills, and express their opinions on a wide range of topics.",
+        "To become a member of the Debating Society, you can attend their meetings, participate in their debates and discussions, and contribute to their debating events and competitions.",
+        "Events organized by the Debating Society include intercollegiate debates, parliamentary debates, model United Nations simulations, and panel discussions.",
+        "The Debating Society discusses topics ranging from politics, economics, and social issues to science, technology, and culture."
+      ]
+    },
+    {
+      "tag": "Entrepreneurship Club",
+      "patterns": [
+        "What entrepreneurship activities does the Entrepreneurship Club organize?",
+        "Can you provide more information about the Entrepreneurship Club at COEP?",
+        "How can I get involved with the Entrepreneurship Club?",
+        "Tell me about the startup initiatives organized by the Entrepreneurship Club.",
+        "What support does the Entrepreneurship Club offer to aspiring entrepreneurs?"
+      ],
+      "responses": [
+        "The Entrepreneurship Club organizes various entrepreneurship activities such as startup workshops, idea pitching sessions, networking events, and business plan competitions.",
+        "The Entrepreneurship Club at COEP is a platform for students interested in entrepreneurship to connect, learn, and collaborate on innovative ventures.",
+        "To get involved with the Entrepreneurship Club, you can attend their workshops, participate in their events and competitions, and join their entrepreneurship development programs.",
+        "Startup initiatives organized by the Entrepreneurship Club include startup bootcamps, hackathons, venture capital pitch events, and mentorship programs.",
+        "The Entrepreneurship Club offers support to aspiring entrepreneurs through mentorship, networking opportunities, access to resources and funding, and guidance in developing and scaling their ventures."
+      ]
+    },
+    {
+      "tag": "Art Club",
+      "patterns": [
+        "What art-related activities does the Art Club organize?",
+        "Can you provide more information about the Art Club at COEP?",
+        "How can I get involved with the Art Club?",
+        "Tell me about the art exhibitions organized by the Art Club.",
+        "What art mediums does the Art Club explore?"
+      ],
+      "responses": [
+        "The Art Club organizes various art-related activities such as painting workshops, drawing sessions, art competitions, and art installations.",
+        "The Art Club at COEP is a community of artists and art enthusiasts who come together to express their creativity and appreciation for the arts.",
+        "To get involved with the Art Club, you can attend their workshops, participate in their art competitions and projects, and contribute to their art exhibitions.",
+        "Art exhibitions organized by the Art Club include student showcases, thematic exhibitions, and collaborations with other art clubs and organizations.",
+        "The Art Club explores a wide range of art mediums including painting, drawing, sculpture, digital art, photography, and mixed media."
+      ]
+    },
+    {
+      "tag": "Chess Club",
+      "patterns": [
+        "What chess-related activities does the Chess Club organize?",
+        "Can you provide more information about the Chess Club at COEP?",
+        "How can I join the Chess Club?",
+        "Tell me about the chess tournaments organized by the Chess Club.",
+        "What chess strategies does the Chess Club focus on?"
+      ],
+      "responses": [
+        "The Chess Club organizes various chess-related activities such as chess tournaments, chess coaching sessions, chess workshops, and chess exhibitions.",
+        "The Chess Club at COEP is a community of chess players who come together to play, learn, and improve their chess skills.",
+        "To join the Chess Club, you can attend their chess coaching sessions, participate in their tournaments and workshops, and engage in friendly chess matches with other members.",
+        "Chess tournaments organized by the Chess Club include rapid chess tournaments, blitz chess tournaments, team chess tournaments, and intercollegiate chess championships.",
+        "The Chess Club focuses on chess strategies such as opening principles, middle game tactics, endgame techniques, and strategic planning."
+      ]
+    },
+    {
+      "tag": "Ignited Innovators of India",
+      "patterns": [
+        "What is Ignited Innovators of India (I2I)?",
+        "Can you provide information about I2I?",
+        "How can I get involved with Ignited Innovators of India?",
+        "Tell me about the vision of I2I.",
+        "What kind of projects does Ignited Innovators of India promote?"
+      ],
+      "responses": [
+        "Ignited Innovators of India (I2I) is a movement organized by the Bhau Institute of Innovation, Entrepreneurship and Leadership (BIEL) at College of Engineering, Pune (COEP).",
+        "I2I is a unique initiative aimed at reaching out to students across India and providing them with opportunities to become social entrepreneurs and bring about positive changes in their communities.",
+        "To get involved with Ignited Innovators of India, you can contact the individuals listed below or visit their website for more information.",
+        "The vision of I2I is to promote and instill entrepreneurship, leadership, and team-building skills among students in various colleges.",
+        "Ignited Innovators of India promotes innovative projects that have the potential to make a tangible difference in communities, encouraging students to take up social entrepreneurship."
+      ]
+    },
+    {
+      "tag": "Satellite Team",
+      "patterns": [
+        "What is the COEP Satellite (SWAYAM) project?",
+        "Can you provide information about the COEP Satellite project?",
+        "How does the COEP Satellite project work?",
+        "Tell me about the achievements of the Satellite Team.",
+        "Who are the key members of the Satellite Team?"
+      ],
+      "responses": [
+        "The COEP Satellite (SWAYAM) project is aimed at developing a reliable bidirectional communications platform using a cube-shaped satellite destined to orbit the Earth at a height of 500-800 km.",
+        "The SWAYAM project revolves around the challenge of building a pico-satellite with a total weight of 1 kg and volume restricted to around 1000 cc.",
+        "The COEP Satellite houses a payload capable of half duplex communication over the HAM frequency band, enabling it to receive, store, and transmit messages globally.",
+        "The Satellite Team has achieved milestones such as successfully clearing the Critical Design Review (CDR), completing the Flight Model assembly, and launching the satellite into space.",
+        "Key members of the Satellite Team include Project Manager Harshmohan Kulkarni and Faculty Advisor Ms. N. R. Kolhare."
+      ]
+    },
+    {
+      "tag": "Society of Women Engineers",
+      "patterns": [
+        "What is the Society of Women Engineers (SWE) at COEP?",
+        "Can you provide information about the COEP SWE Affiliate?",
+        "How does one get involved with the Society of Women Engineers?",
+        "Tell me about the activities organized by the Society of Women Engineers.",
+        "Who are the faculty advisors of the Society of Women Engineers?"
+      ],
+      "responses": [
+        "The Society of Women Engineers (SWE) at COEP is an international, non-profit educational service organization dedicated to promoting the need for women engineers and encouraging young women to consider engineering education.",
+        "The COEP SWE Affiliate aims to provide members with networking opportunities, professional development events, workshops, field visits, and inspiring keynote lectures by successful women.",
+        "To get involved with the Society of Women Engineers, you can contact the individual listed below or visit their website for more information.",
+        "The Society of Women Engineers organizes activities such as networking events, professional development workshops, field trips, keynote lectures, and collaborations with other organizations.",
+        "Faculty advisors of the Society of Women Engineers include Dr. Mrs. S. N. Chaure and Dr. Mrs. Ahilya Dhere."
+      ]
+    },
+    {
+      "tag": "Spandan",
+      "patterns": [
+        "What is Spandan?",
+        "Can you provide information about Spandan at COEP?",
+        "How does one get involved with Spandan?",
+        "Tell me about the activities organized by Spandan.",
+        "Who are the faculty advisors of Spandan?"
+      ],
+      "responses": [
+        "Spandan is an initiative by COEPians aimed at transforming from social to techno-social, touching the lives of underprivileged people and fostering a spirit of social commitment among students.",
+        "Spandan is an official club under Gymkhana, COEP Tech, focusing on social causes and promoting social commitment among students.",
+        "To get involved with Spandan, you can contact the individual listed below or visit their address provided for more information.",
+        "Activities organized by Spandan include orphanage visits, old age home visits, village camps, blood donation camps, donation drives, and other initiatives aimed at improving the well-being of society.",
+        "Faculty advisor of Spandan is Dr. Mrs. Archana Thosar."
+      ]
+    },
+    {
+      "tag": "Abhiyanta",
+      "patterns": [
+        "What is Abhiyanta?",
+        "Can you provide information about Abhiyanta?",
+        "How does one contribute to Abhiyanta?",
+        "Tell me about the sections in Abhiyanta magazine.",
+        "Has Abhiyanta received any awards?"
+      ],
+      "responses": [
+        "Abhiyanta is the annual magazine of College of Engineering, Pune (COEP), receiving applause from all over the state since its first print in 1915.",
+        "Abhiyanta is a prestigious enterprise in COEP, featuring contributions from various clubs and sections in Marathi, Hindi, and English, covering technical and non-technical content.",
+        "Contributions to Abhiyanta are welcomed from all clubs and individuals interested in showcasing their work and creativity.",
+        "Sections in Abhiyanta magazine include COEP section, technical section, and sections for arts such as illustration, photography, and others.",
+        "Abhiyanta has received various awards from the University of Pune and Maharashtra Sahitya Parishad."
+      ]
+    },
+    {
+      "tag": "Aerial Robot Study Circle (ARSC)",
+      "patterns": [
+        "What is the Aerial Robot Study Circle (ARSC)?",
+        "Can you provide information about ARSC at COEP?",
+        "How does one get involved with ARSC?",
+        "Tell me about the projects completed by ARSC.",
+        "What are the ongoing and future projects of ARSC?"
+      ],
+      "responses": [
+        "The Aerial Robot Study Circle (ARSC) at COEP Technological University is a vibrant and creative club focused on constructing aerial robots to tackle real-world problems and compete in national and international contests.",
+        "ARSC aims to increase understanding and awareness of aerial robots through seminars, workshops, and industry insights.",
+        "To get involved with ARSC, you can contact the individuals listed below or visit their provided address for more information.",
+        "Projects completed by ARSC include a fleet of drones of various sizes, specialized payloads for flower showering and medicine delivery, 3D printed custom-designed frames, and high-performance drones for videography and aerial photography.",
+        "Ongoing and future projects of ARSC include high-payload drones, indigenous flight controllers, automated flying robots, surveillance drones, medical supply delivery RC planes, hydrobots, VTOL aircraft, drone swarms, and more."
+      ]
+    },
+    {
+      "tag": "Drama and Film Club",
+      "patterns": [
+        "What is the Drama and Film Club at COEP?",
+        "Can you provide information about the Drama and Film Club?",
+        "How does one get involved with the Drama and Film Club?",
+        "Tell me about the projects completed by the Drama and Film Club.",
+        "Who are the key members of the Drama and Film Club?"
+      ],
+      "responses": [
+        "The Drama and Film Club at COEP Technological University is a vibrant and inclusive club that serves as a creative hub for students passionate about theatre and filmmaking.",
+        "The club offers workshops and training sessions covering various aspects of dramatic arts and cinematic techniques, fostering a collaborative spirit among members.",
+        "To get involved with the Drama and Film Club, you can contact the individuals listed below or visit their provided YouTube channel for more information.",
+        "Projects completed by the Drama and Film Club include theatrical performances such as 'Na Bhuto Na Bhavishyati' and short films like 'Aabhas', 'One Last Time', 'Abhay', and 'PopUp', along with documentaries and interactive videos.",
+        "Key members of the Drama and Film Club include Secretary Nikash Deshmukh and Faculty Advisor Prof. S. S. Kumbhar."
+      ]
+    },
+    {
+      "tag": "Ignited Innovators of India Contact",
+      "patterns": [
+        "How can I contact Ignited Innovators of India?",
+        "Can you provide contact information for I2I?",
+        "Who can I reach out to for more information about Ignited Innovators of India?"
+      ],
+      "responses": [
+        "You can contact Ignited Innovators of India through the following individuals:",
+        "1. Bharat Bodkhe - Contact No. 7745872275",
+        "2. Sayali Salgare - Contact No. 9604987669",
+        "3. Sachin Sanap - Contact No. 8411905571",
+        "You can also visit their website for more information."
+      ]
+    },
+    {
+      "tag": "Satellite Team Achievements",
+      "patterns": [
+        "What are some achievements of the Satellite Team?",
+        "Can you list the accomplishments of the COEP Satellite Team?",
+        "Tell me about the successes of the COEP Satellite project."
+      ],
+      "responses": [
+        "Achievements of the Satellite Team include:",
+        "- Successfully clearing the Critical Design Review (CDR)",
+        "- Completing the Flight Model assembly",
+        "- Launching the satellite into space",
+        "The team has also established a functional Ground Station and tracked many amateur radio satellites."
+      ]
+    },
+    {
+      "tag": "Satellite Team Achievements",
+      "patterns": [
+        "What are some achievements of the Satellite Team?",
+        "Can you list the accomplishments of the COEP Satellite Team?",
+        "Tell me about the successes of the COEP Satellite project."
+      ],
+      "responses": [
+        "Achievements of the Satellite Team include:",
+        "- Successfully clearing the Critical Design Review (CDR)",
+        "- Completing the Flight Model assembly",
+        "- Launching the satellite into space",
+        "The team has also established a functional Ground Station and tracked many amateur radio satellites."
+      ]
+    },
+    {
+      "tag": "Society of Women Engineers Activities",
+      "patterns": [
+        "What activities are organized by the Society of Women Engineers?",
+        "Can you list some events hosted by the COEP SWE Affiliate?",
+        "Tell me about the initiatives undertaken by the Society of Women Engineers."
+      ],
+      "responses": [
+        "Activities organized by the Society of Women Engineers include:",
+        "- Networking events",
+        "- Professional development workshops",
+        "- Field trips",
+        "- Keynote lectures by successful women",
+        "The society also collaborates with other organizations to host events aimed at promoting women in engineering."
+      ]
+    },
+    {
+      "tag": "Spandan Contact",
+      "patterns": [
+        "How can I contact Spandan?",
+        "Can you provide contact information for Spandan?",
+        "Who can I reach out to for more information about Spandan?"
+      ],
+      "responses": [
+        "You can contact Spandan through the following individuals:",
+        "- Omkar Pardeshi (Secretary) - Contact No. +91-8369595428",
+        "You can also visit their address for more information."
+      ]
+    },
+    {
+      "tag": "Aerial Robot Study Circle Future Projects",
+      "patterns": [
+        "What are the future projects of the Aerial Robot Study Circle?",
+        "Can you provide information about the upcoming projects of ARSC?",
+        "Tell me about the planned initiatives of ARSC."
+      ],
+      "responses": [
+        "Future projects of the Aerial Robot Study Circle include:",
+        "- Medical supply delivery RC Plane for Pune",
+        "- HydroBotX: a modular and maneuverable underwater ROV",
+        "- VTOL Aircraft",
+        "- Drone Swarm",
+        "These are just some of the projects planned by ARSC to advance aerial robotics technology."
+      ]
+    },
+    {
+      "tag": "ARSC Contact Information",
+      "patterns": [
+        "How can I contact the Aerial Robot Study Circle?",
+        "Can you provide contact information for ARSC?",
+        "Who can I reach out to for more information about ARSC?"
+      ],
+      "responses": [
+        "You can contact the Aerial Robot Study Circle through the following individuals: - Omkar Janawekar (Secretary) - Email: arsc@coep.ac.in, Mobile No: (+91) 9370393412 You can also visit their address for more information."
+      ]
+    },
+    {
+      "tag": "Training and Placement Overview",
+      "patterns": [
+        "What is the Training and Placement process at COEP?",
+        "Can you provide an overview of the Training and Placement cell?",
+        "Tell me about the recruitment process at COEP."
+      ],
+      "responses": [
+        "The Training and Placement cell at COEP is led by Dr. Raju N. Ladhwe, the Training and Placement Officer.",
+        "COEP Technological University, Pune, aims to be a leader amongst engineering institutions in India.",
+        "The Training and Placement cell invites organizations to recruit from the current batch of students, providing a platform for students to showcase their talents.",
+        "COEP has established lasting relationships with numerous organizations, and invites them to visit the campus for recruitment.",
+        "For more details, visit www.coep.org.in or contact the Training and Placement Officer at tpo@coeptech.ac.in."
+      ]
+    }    
+  ]
+}
+
+
+    
+
+    
